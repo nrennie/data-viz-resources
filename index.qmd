@@ -1,0 +1,92 @@
+---
+title: "Data Visualisation Resources"
+subtitle: "A curated collection of useful, freely-available data visualisation resources."
+author: "Nicola Rennie"
+format:
+  html:
+    toc: true
+    page-layout: full
+    theme: pulse
+    image: preview.png
+execute: 
+  eval: true
+  echo: false
+---
+
+```{css, echo = FALSE}
+select {
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 400;
+  margin: 0;
+  outline-style: solid;
+  outline-width: 0;
+  padding: 5px 7px;
+  width: 100%;
+}
+```
+
+
+
+```{r}
+#| message: false
+resources <- readr::read_csv("resources.csv") |>
+  dplyr::mutate(
+    LinkText = stringr::str_remove_all(Link, "https://|/$"),
+    Link = glue::glue("<a href='{Link}' target = '_blank'>{LinkText}</a>")
+  ) |>
+  dplyr::select(-LinkText) |>
+  dplyr::mutate(
+    Tags = stringr::str_replace_all(Tags, ";", ", ")
+  )
+```
+
+```{r}
+#| message: false
+library(htmltools)
+filter_fct <- function(values, name) {
+  tags$select(
+    tags$option(value = "", "All"),
+    purrr::map(unique(values), tags$option),
+    onchange = glue::glue(
+      "Reactable.setFilter(
+        'resources-tbl',
+        '{name}',
+        event.target.value
+      )"
+    )
+  )
+}
+```
+
+
+```{r}
+resources |>
+  dplyr::arrange(Topic, Title) |>
+  reactable::reactable(
+    columns = list(
+      Topic = reactable::colDef(
+        name = "Topic",
+        filterInput = filter_fct
+      ),
+      Link = reactable::colDef(
+        html = TRUE
+      )
+    ),
+    searchable = TRUE,
+    striped = TRUE,
+    pagination = FALSE,
+    elementId = "resources-tbl",
+    filterable = TRUE,
+    sortable = TRUE,
+    showSortable = TRUE
+  )
+```
+
+<br>
+
+Want to add a resource? File an issue or edit the `resources.csv` file on [GitHub](https://github.com/nrennie/data-viz-resources) and submit a PR.

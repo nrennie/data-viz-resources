@@ -1,0 +1,46 @@
+Topic,Title,Link,Tags
+General,Fundamentals of Data Visualization,https://clauswilke.com/dataviz/,Book
+General,FT Visual Vocabulary (Interactive),https://ft-interactive.github.io/visual-vocabulary/,Website
+General,FT Visual Vocabulary,https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/Visual-vocabulary-en.pdf,Website
+General,Nicola Rennie,https://nrennie.rbind.io/blog/#category=Data%20Visualisation,Blog
+General,Cara Thompson,https://www.cararthompson.com/posts,Blog
+General,Alberto Cairo,https://theartofinsight.substack.com/,Blog
+General,Kieran Healy,https://kieranhealy.org/blog/,Blog
+General,VizDex,https://vizdexproject.com/,Blog
+General,Datawrapper Blog,https://www.datawrapper.de/blog,Blog
+General,Visualizing Data,https://visualisingdata.ck.page/b9efcf751f,Newsletter
+General,Data Visualization Society,https://www.datavisualizationsociety.org/,Community
+General,Tableau Community,https://community.tableau.com/s/,Community
+General,Women in Dataviz,https://womenindataviz.substack.com/about,Community
+General,RSS Best Practices for Data Visualisation,https://rss.org.uk/datavisguide/,Style guide
+General,ONS Data Visualisation Manual,https://service-manual.ons.gov.uk/data-visualisation,Style guide
+General,Economist style guide,https://design-system.economist.com/documents/CHARTstyleguide_20170505.pdf,Style guide
+Colour,Viz Palette,https://projects.susielu.com/viz-palette,Website
+Colour,Coolors,https://coolors.co/generate,Website
+Colour,Data Viz Contrast Tool,https://datavizcontrast.com/,Website
+Colour,Building color palettes in your data visualization style guides,https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/,Paper
+Colour,How to find and create good color palettes,https://www.datawrapper.de/blog/create-good-color-palettes,Blog post
+Colour,Python Color Palette Finder,https://python-graph-gallery.com/color-palette-finder/,Website
+Inspiration,Information is Beautiful,https://informationisbeautiful.net/,Website
+Inspiration,Datawrapper Dispatch,https://www.datawrapper.de/blog/category/data-vis-dispatch,Blog
+Inspiration,TidyTuesday,https://github.com/rfordatascience/tidytuesday,
+Inspiration,30 Day Chart Challenge,https://github.com/30DayChartChallenge,
+Inspiration,30 Day Map Challenge,https://30daymapchallenge.com/,
+Inspiration,Makeover Monday,https://makeovermonday.co.uk/,
+Inspiration,Sports Viz Sunday,https://www.sportsvizsunday.com/,
+Inspiration,Storytelling with Data,https://community.storytellingwithdata.com/challenges,
+Inspiration,Viz for Social Good,https://www.vizforsocialgood.com/,
+Inspiration,Wonderful Wednesdays,https://www.psiweb.org/sigs-special-interest-groups/visualisation/welcome-to-wonderful-wednesdays,
+Programming,Svelte + D3 Training (Matthias Stahl),https://www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8,D3;Svelte
+Programming,SveltePlot,https://svelteplot.dev/,Svelte
+Programming,Using D3 with Svelte,https://datavisualizationwithsvelte.com/,D3;Svelte
+Programming,A ggplot2 Grammar Guide,https://evamaerey.github.io/ggplot2_grammar_guide/about,R
+Programming,Visualization for Social Data Science,https://vis4sds.github.io/vis4sds/,R
+Programming,ggplot2: Elegant Graphics for Data Analysis,https://ggplot2-book.org/,R
+Programming,ggplot2 extended,https://ggplot2-extended-book.com/,R
+Programming,R Graphics Cookbook,https://r-graphics.org/,R
+Programming,D3 in Depth,https://www.d3indepth.com/,D3
+Programming,Data Visualization with Plotnine,https://f0nzie.github.io/rmarkdown-python-plotnine/,Python
+Programming,ggiraph Book,https://www.ardata.fr/ggiraph-book/,R
+Programming,Telling Stories with Data,https://tellingstorieswithdata.com/,R;Python
+Programming,Data Visualization: A Practical Introduction,https://socviz.co/,R

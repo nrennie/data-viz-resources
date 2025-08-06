@@ -1,6 +1,6 @@
 ---
 title: "Data Visualisation Resources"
-subtitle: "A curated collection of useful, freely-available data visualisation resources."
+subtitle: "A curated collection of useful, freely-available data visualisation resources and links."
 author: "Nicola Rennie"
 format:
   html:
@@ -42,6 +42,10 @@ resources <- readr::read_csv("resources.csv") |>
   dplyr::select(-LinkText) |>
   dplyr::mutate(
     Tags = stringr::str_replace_all(Tags, ";", ", ")
+  ) |> 
+  dplyr::mutate(
+    Topic = factor(Topic),
+    Topic = forcats::fct_relevel(Topic, "General", after = 0)
   )
 ```
 

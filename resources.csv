@@ -2,8 +2,8 @@ Topic,Title,Link,Tags
 General,Fundamentals of Data Visualization,https://clauswilke.com/dataviz/,Book
 General,FT Visual Vocabulary (Interactive),https://ft-interactive.github.io/visual-vocabulary/,Website;Guidance
 General,FT Visual Vocabulary,https://github.com/Financial-Times/chart-doctor/blob/main/visual-vocabulary/Visual-vocabulary-en.pdf,Website;Guidance
-General,Nicola Rennie,https://nrennie.rbind.io/blog/#category=Data%20Visualisation,Blog
-General,Cara Thompson,https://www.cararthompson.com/posts,Blog
+General,Nicola Rennie,https://nrennie.rbind.io/blog/#category=Data%20Visualisation,Blog;R
+General,Cara Thompson,https://www.cararthompson.com/posts,Blog;R
 General,Helena Jambor,https://helenajamborwrites.netlify.app/#category=datavis,Blog
 General,Alberto Cairo,https://theartofinsight.substack.com/,Blog
 General,Kieran Healy,https://kieranhealy.org/blog/,Blog
@@ -11,6 +11,7 @@ General,VizDex,https://vizdexproject.com/,Blog
 General,Datawrapper Blog,https://www.datawrapper.de/blog,Blog
 General,Flowing Data,https://flowingdata.com/,Blog
 General,Policy Viz,https://policyviz.com/blog/,Blog;Website
+General,Albert Rapp,https://albert-rapp.de/blog#category=Visualization,Blog;R
 General,Visualizing Data,https://visualisingdata.ck.page/b9efcf751f,Newsletter
 General,Data Visualization Society,https://www.datavisualizationsociety.org/,Community
 General,Tableau Community,https://community.tableau.com/s/,Community
@@ -22,8 +23,8 @@ General,RSS Best Practices for Data Visualisation,https://rss.org.uk/datavisguid
 General,ONS Data Visualisation Manual,https://service-manual.ons.gov.uk/data-visualisation,Style guide;Guidance;Website
 General,Government Analysis Function,https://analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation/,Website;Style guide;Guidance
 General,Economist style guide,https://design-system.economist.com/documents/CHARTstyleguide_20170505.pdf,Style guide
-General,99 data viz rules and why it’s OK to break them,https://www.addtwodigital.com/blog,Website;Guidance
-General,"Mistakes we’ve drawn a few",https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368,Website;Blog post
+General,99 data viz rules and why it's OK to break them,https://www.addtwodigital.com/blog,Website;Guidance
+General,"Mistakes we've drawn a few",https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368,Website;Blog post
 General,A checklist for designing and improving the visualization of scientific data,https://www.nature.com/articles/s41556-025-01684-z,Academic paper
 Colour,Viz Palette,https://projects.susielu.com/viz-palette,Website;Colour
 Colour,Coolors,https://coolors.co/generate,Website;Colour
@@ -48,6 +49,7 @@ Programming,Data Visualization with Plotnine,https://f0nzie.github.io/rmarkdown-
 Programming,ggiraph Book,https://www.ardata.fr/ggiraph-book/,R;Book;Programming
 Programming,Telling Stories with Data,https://tellingstorieswithdata.com/,R;Python;Programming;Book
 Programming,Data Visualization: A Practical Introduction,https://socviz.co/,R;Book;Programming
+Programming,Getting (more out of) Graphics,https://bookdown.org/aatcosada/GmooG-book2,R;Book;Programming
 Software,Datawrapper,https://www.datawrapper.de/,Low code
 Software,Flourish,https://flourish.studio/,Low code
 Software,SveltePlot,https://svelteplot.dev/,Svelte;Programming

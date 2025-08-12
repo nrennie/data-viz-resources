@@ -94,3 +94,5 @@ resources |>
 <br>
 
 Want to add a resource? File an issue or edit the `resources.csv` file on [GitHub](https://github.com/nrennie/data-viz-resources) and submit a PR.
+
+Looking for more general data science resources? Take a look at [nrennie.rbind.io/data-science-resources](https://nrennie.rbind.io/data-science-resources/).

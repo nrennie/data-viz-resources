@@ -6,19 +6,25 @@ General,Nicola Rennie,https://nrennie.rbind.io/blog/#category=Data%20Visualisati
 General,Cara Thompson,https://www.cararthompson.com/posts,Blog;R
 General,Helena Jambor,https://helenajamborwrites.netlify.app/#category=datavis,Blog
 General,Alberto Cairo,https://theartofinsight.substack.com/,Blog
+General,Rita Giordano,https://ritagiordano.co.uk/,Blog
 General,Kieran Healy,https://kieranhealy.org/blog/,Blog
+General,Tanya Shapiro,https://tanyaviz.com/,Blog
 General,VizDex,https://vizdexproject.com/,Blog
 General,Datawrapper Blog,https://www.datawrapper.de/blog,Blog
 General,Flowing Data,https://flowingdata.com/,Blog
+General,Thought-doing,https://dallasnova.rbind.io/post/,Blog
 General,Policy Viz,https://policyviz.com/blog/,Blog;Website
 General,Albert Rapp,https://albert-rapp.de/blog#category=Visualization,Blog;R
 General,Visualizing Data,https://visualisingdata.ck.page/b9efcf751f,Newsletter
+General,Visualizing Data Resources,https://visualisingdata.com/resources/,Website;Resources
 General,Data Visualization Society,https://www.datavisualizationsociety.org/,Community
 General,Tableau Community,https://community.tableau.com/s/,Community
 General,Women in Dataviz,https://womenindataviz.substack.com/about,Community
 General,PSI Visualisation Special Interest Group,https://www.psiweb.org/sigs-special-interest-groups/visualisation,Community
 General,From Data to Viz,https://www.data-to-viz.com/,Website
 General,Data Viz Project,https://datavizproject.com/,Website
+General,Michael Friendly,https://www.datavis.ca/,Website
+General,"Graph | Plot | Chart | Data Story",https://gpcds.com/,Website
 General,RSS Best Practices for Data Visualisation,https://rss.org.uk/datavisguide/,Style guide;Guidance;Website
 General,ONS Data Visualisation Manual,https://service-manual.ons.gov.uk/data-visualisation,Style guide;Guidance;Website
 General,Government Analysis Function,https://analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation/,Website;Style guide;Guidance
@@ -26,8 +32,10 @@ General,Economist style guide,https://design-system.economist.com/documents/CHAR
 General,99 data viz rules and why it's OK to break them,https://www.addtwodigital.com/blog,Website;Guidance
 General,"Mistakes we've drawn a few",https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368,Website;Blog post
 General,A checklist for designing and improving the visualization of scientific data,https://www.nature.com/articles/s41556-025-01684-z,Academic paper
+General,Visualization design resources,https://www.cs.ubc.ca/group/infovis/resources.shtml,Website;Resources
 Colour,Viz Palette,https://projects.susielu.com/viz-palette,Website;Colour
 Colour,Coolors,https://coolors.co/generate,Website;Colour
+Colour,ColorBrewer,https://colorbrewer2.org/,Website;Colour
 Colour,Data Viz Contrast Tool,https://datavizcontrast.com/,Website;Colour;Accessibility
 Colour,Building color palettes in your data visualization style guides,https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/,Academic paper;Colour
 Colour,Analysing and comparing color palettes with cols4all,https://cols4all.github.io/cols4all-R/articles/01_paper.html,Colour;R;Academic paper
@@ -36,7 +44,12 @@ Colour,Python Color Palette Finder,https://python-graph-gallery.com/color-palett
 Accessibility,Writing Alt Text for Data Visualization,https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81,Blog post;Accessibility;Alt text
 Accessibility,Why your data viz needs alt text,https://academic.oup.com/jrssig/article/20/1/38/7034177,Academic paper;Accessibility;Alt text
 Accessibility,Making charts accessible,https://analysisfunction.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/#section-4,Website;Style guide
+Accessibility,Dataviz Accessibility Resources,https://github.com/dataviza11y/resources,Website;Accessibility;Resources
 Perception,"Preference for and understanding of graphs presenting health risk information. The role of age, health literacy, numeracy and graph literacy",https://www.sciencedirect.com/science/article/pii/S0738399120303499?via%3Dihub,Academic paper
+Perception,Judgment Error in Pie Chart Variations,https://diglib.eg.org/server/api/core/bitstreams/b0fc6407-96c8-4127-b1cb-6ca990b2ddb0/content,Academic paper
+Perception,What Makes a Visualization Memorable?,https://ieeexplore.ieee.org/abstract/document/6634103,Academic paper
+Perception,Automating the design of graphical presentations of relational information,https://doi.org/10.1145/22949.22950,Academic paper
+Perception,Psychology of Data Visualization,https://friendly.github.io/6135/,Website;Teaching
 Programming,Svelte + D3 Training (Matthias Stahl),https://www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8,D3;Svelte;Video;Programming
 Programming,Using D3 with Svelte,https://datavisualizationwithsvelte.com/,D3;Svelte;Website;Programming
 Programming,A ggplot2 Grammar Guide,https://evamaerey.github.io/ggplot2_grammar_guide/about,R;Website;Programming
@@ -50,15 +63,19 @@ Programming,ggiraph Book,https://www.ardata.fr/ggiraph-book/,R;Book;Programming
 Programming,Telling Stories with Data,https://tellingstorieswithdata.com/,R;Python;Programming;Book
 Programming,Data Visualization: A Practical Introduction,https://socviz.co/,R;Book;Programming
 Programming,Getting (more out of) Graphics,https://bookdown.org/aatcosada/GmooG-book2,R;Book;Programming
+Programming,A layered grammar of graphics,http://dx.doi.org/10.1198/jcgs.2009.07098,R;Academic paper
+Programming,R Graph Gallery,https://r-graph-gallery.com/,R;Programming;Website
+Programming,Python Graph Gallery,https://python-graph-gallery.com/,Python;Programming;Website
 Software,Datawrapper,https://www.datawrapper.de/,Low code
 Software,Flourish,https://flourish.studio/,Low code
-Software,SveltePlot,https://svelteplot.dev/,Svelte;Programming
-Software,Observable,https://observablehq.com/,Observable;Programming
+Software,SveltePlot,https://svelteplot.dev/,Svelte;Programming;JavaScript
+Software,Observable,https://observablehq.com/,Observable;Programming;JavaScript
 Software,Tableau,https://www.tableau.com/,Low code
-Software,D3,https://d3js.org/,D3;Programming
+Software,D3,https://d3js.org/,D3;Programming;JavaScript
 Software,RAWGraphs,https://www.rawgraphs.io/,Low code
 Software,ggplot2,https://ggplot2.tidyverse.org/,R;Programming
 Software,Plotnine,https://plotnine.org/,Python;Programming
+Software,Highcharts,https://www.highcharts.com/,Highcharts;JavaScript;Programming
 Inspiration,Information is Beautiful,https://informationisbeautiful.net/,Website;Blog
 Inspiration,Datawrapper Dispatch,https://www.datawrapper.de/blog/category/data-vis-dispatch,Website;Blog
 Inspiration,Wonderful Wednesdays,https://www.psiweb.org/sigs-special-interest-groups/visualisation/welcome-to-wonderful-wednesdays,Website;Blog
@@ -69,3 +86,5 @@ Inspiration,2020 30 Day Map Challenge Gallery,https://david.frigge.nz/30DayMapCh
 Inspiration,Sports Viz Sunday,https://www.sportsvizsunday.com/,Website;Blog
 Inspiration,Storytelling with Data,https://community.storytellingwithdata.com/challenges,Website;Community
 Inspiration,30 Day Chart Challenge Bluesky,https://bsky.app/profile/30daychartchall.bsky.social,Website;Community
+Inspiration,Massachusetts (Massive) Visualization Dataset,http://massvis.mit.edu/,Website;Data
+Inspiration,Help Me Viz,https://helpmeviz.com/,Website

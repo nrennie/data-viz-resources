@@ -44,8 +44,8 @@ resources <- readr::read_csv("resources.csv") |>
     Tags = stringr::str_replace_all(Tags, ";", ", ")
   ) |> 
   dplyr::mutate(
-    Topic = factor(Topic),
-    Topic = forcats::fct_relevel(Topic, "General", after = 0)
+    Category = factor(Category),
+    Category = forcats::fct_relevel(Category, "General", after = 0)
   )
 ```
 
@@ -70,11 +70,11 @@ filter_fct <- function(values, name) {
 
 ```{r}
 resources |>
-  dplyr::arrange(Topic, Title) |>
+  dplyr::arrange(Category, Title) |>
   reactable::reactable(
     columns = list(
-      Topic = reactable::colDef(
-        name = "Topic",
+      Category = reactable::colDef(
+        name = "Category",
         filterInput = filter_fct
       ),
       Link = reactable::colDef(
@@ -96,3 +96,5 @@ resources |>
 Want to add a resource? File an issue or edit the `resources.csv` file on [GitHub](https://github.com/nrennie/data-viz-resources) and submit a PR.
 
 Looking for more general data science resources? Take a look at [nrennie.rbind.io/data-science-resources](https://nrennie.rbind.io/data-science-resources/).
+
+Links to external websites are provided for convenience and informational purposes only. We do not endorse, guarantee, or take responsibility for the accuracy, reliability, or content of any linked site.

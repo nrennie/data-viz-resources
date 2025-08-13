@@ -1,13 +1,15 @@
 ---
 title: "Data Visualisation Resources"
-subtitle: "A curated collection of useful, freely-available data visualisation resources and links."
-author: "Nicola Rennie"
+subtitle: "A collection of useful, freely-available data visualisation resources and links, curated by [Nicola Rennie](https://nrennie.rbind.io/)."
 format:
   html:
     toc: true
     page-layout: full
-    theme: pulse
+    theme: [custom.scss]
     image: preview.png
+    include-after-body: 
+      text: |
+        <footer class="footer">© Nicola Rennie. 2025. All rights reserved.</footer>
 execute: 
   eval: true
   echo: false
@@ -31,6 +33,9 @@ select {
 ```
 
 
+Want to add a resource? File an issue or edit the `resources.csv` file on [GitHub](https://github.com/nrennie/data-viz-resources) and submit a PR.
+
+Looking for more general data science resources? Take a look at [nrennie.rbind.io/data-science-resources](https://nrennie.rbind.io/data-science-resources/).
 
 ```{r}
 #| message: false
@@ -42,7 +47,7 @@ resources <- readr::read_csv("resources.csv") |>
   dplyr::select(-LinkText) |>
   dplyr::mutate(
     Tags = stringr::str_replace_all(Tags, ";", ", ")
-  ) |> 
+  ) |>
   dplyr::mutate(
     Category = factor(Category),
     Category = forcats::fct_relevel(Category, "General", after = 0)
@@ -75,10 +80,14 @@ resources |>
     columns = list(
       Category = reactable::colDef(
         name = "Category",
-        filterInput = filter_fct
+        filterInput = filter_fct,
+        maxWidth = 180
       ),
       Link = reactable::colDef(
         html = TRUE
+      ),
+      Tags = reactable::colDef(
+        maxWidth = 180
       )
     ),
     searchable = TRUE,
@@ -87,14 +96,20 @@ resources |>
     elementId = "resources-tbl",
     filterable = TRUE,
     sortable = TRUE,
-    showSortable = TRUE
+    showSortable = TRUE,
+    theme = reactable::reactableTheme(
+      backgroundColor = "#F0F5F5",
+      rowStyle = list(
+        backgroundColor = "#F0F5F5",
+        color = "black"
+      ),
+      rowStripedStyle = list(
+        backgroundColor = "#FFFFFF"
+      )
+    )
   )
 ```
 
 <br>
-
-Want to add a resource? File an issue or edit the `resources.csv` file on [GitHub](https://github.com/nrennie/data-viz-resources) and submit a PR.
-
-Looking for more general data science resources? Take a look at [nrennie.rbind.io/data-science-resources](https://nrennie.rbind.io/data-science-resources/).
 
 Links to external websites are provided for convenience and informational purposes only. We do not endorse, guarantee, or take responsibility for the accuracy, reliability, or content of any linked site.

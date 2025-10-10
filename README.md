@@ -10,5 +10,3 @@ See resources at: [nrennie.rbind.io/data-viz-resources](https://nrennie.rbind.io
   * `Name`: the name of the resource e.g. Who's blog is it? Or what is the name of the book?
   * `Link`: the full URL to the resource. Links should generally be to the main resource page e.g. link to a blog rather than a single blog post, or a YouTube channel rather than a single video.
   * `Tags`: the category of the resource e.g. the programming language, or area of data visualisation covered. Resources may have multiple categories, which should be separated by a semi-colon, `;`. If you are adding a new tag, please explain why in your PR description.
-
-  

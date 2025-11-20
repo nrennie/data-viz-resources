@@ -4,7 +4,7 @@ General,FT Visual Vocabulary,https://github.com/Financial-Times/chart-doctor/tre
 General,99 data viz rules and why it's OK to break them,https://www.addtwodigital.com/blog,Website;Guidance
 General,"Mistakes, we've drawn a few",https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368,Website;Blog post
 General,A checklist for designing and improving the visualization of scientific data,https://www.nature.com/articles/s41556-025-01684-z,Academic paper
-General,Visualizing Uncertainty About the Future,https://www.stat.berkeley.edu/~aldous/157/Papers/spiegelhalter_visualizing.pdf,Academic paper
+General,Visualizing uncertainty about the future,https://www.stat.berkeley.edu/~aldous/157/Papers/spiegelhalter_visualizing.pdf,Academic paper
 General,Data Feminism,https://direct.mit.edu/books/book/4660/Data-Feminism,Book
 General,ONS Digital Blog,https://digitalblog.ons.gov.uk/category/dataviz/,Blog
 General,From Data to Viz,https://www.data-to-viz.com/,Website
@@ -12,18 +12,10 @@ General,Data Viz Project,https://datavizproject.com/,Website
 General,VizHub,https://vizhub.com/,Website
 General,Open Visualization Academy,https://openvisualizationacademy.org/,Website
 General,VisLies,https://www.vislies.org/,Website
-Maps,More than maps,https://docs.os.uk/more-than-maps,Website;Guidance
-Organisation,Storytelling with Data,https://www.storytellingwithdata.com/,Website
-Organisation,The Plot,https://www.theplot.media/,Newsletter
-Organisation,"Graph | Plot | Chart | Data Story",https://gpcds.com/,Website
-Organisation,Datawrapper Blog,https://www.datawrapper.de/blog,Blog
-Organisation,Visual Capitalist,https://www.visualcapitalist.com/,Website
-Organisation,The Pudding,https://pudding.cool/,Website
-Organisation,Our World in Data,https://ourworldindata.org/,Website
-Resource list,Data Visualization Podcasts,https://baryon.notion.site/b7307b3af0dd45e1a891feb54d996866?v=f72fa21424a74e55ad058cf4e50ba9da,Resources;Podcast
+Resource list,Data visualization podcasts,https://baryon.notion.site/b7307b3af0dd45e1a891feb54d996866?v=f72fa21424a74e55ad058cf4e50ba9da,Resources;Podcast
 Resource list,Visualization design resources,https://www.cs.ubc.ca/group/infovis/resources.shtml,Website;Resources
 Resource list,Awesome Dataviz,https://github.com/hal9ai/awesome-dataviz,Resources;Website
-Resource list,Visualizing Data Resources,https://visualisingdata.com/resources/,Website;Resources
+Resource list,Visualizing Data resources,https://visualisingdata.com/resources/,Website;Resources
 Resource list,Henry Lau resources,https://www.henrylau.co.uk/resources/,Website;Resources
 Resource list,VizDex,https://vizdexproject.com/,Blog;Resources
 Resource list,More than maps external resources,https://docs.os.uk/more-than-maps/resources/data-visualisation-external-resources,Resources;Website
@@ -31,13 +23,15 @@ Style guide,RSS Best Practices for Data Visualisation,https://rss.org.uk/datavis
 Style guide,ONS Data Visualisation Manual,https://service-manual.ons.gov.uk/data-visualisation,Style guide;Guidance;Website
 Style guide,Government Analysis Function,https://analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation/,Website;Style guide;Guidance
 Style guide,Economist style guide,https://design-system.economist.com/documents/CHARTstyleguide_20170505.pdf,Style guide
-Style guide,Data Visualization Style Guidelines,https://www.datavizstyleguide.com/,Resources;Style guide
-Style guide,Urban Institute Data Visualization Style Guide,https://urbaninstitute.github.io/graphics-styleguide/,Style guide
+Style guide,Data visualization style guidelines,https://www.datavizstyleguide.com/,Resources;Style guide
+Style guide,Urban Institute data visualization style guide,https://urbaninstitute.github.io/graphics-styleguide/,Style guide
+Style guide,Ordnance Survey: More than maps,https://docs.os.uk/more-than-maps,Website;Guidance;Maps
 Data viz people,Nicola Rennie,https://nrennie.rbind.io/blog/#category=Data%20Visualisation,Blog;R
 Data viz people,Cara Thompson,https://www.cararthompson.com/posts,Blog;R
 Data viz people,Helena Jambor,https://helenajamborwrites.netlify.app/#category=datavis,Blog
 Data viz people,Alberto Cairo (The Art of Insight),https://theartofinsight.substack.com/,Blog
 Data viz people,Rita Giordano,https://ritagiordano.co.uk/,Website
+Data viz people,Federica Fragapane,https://www.domestika.org/en/federica_fragapane,Website
 Data viz people,Kieran Healy,https://kieranhealy.org/blog/,Blog
 Data viz people,Tanya Shapiro,https://tanyaviz.com/,Website
 Data viz people,Albert Rapp,https://albert-rapp.de/blog#category=Visualization,Blog;R
@@ -58,6 +52,7 @@ Data viz people,RJ Andrews (Info We Trust),https://infowetrust.com/about,Website
 Data viz people,Koen Van den Eeckhout (Baryon),https://baryon.be/blog/,Website
 Data viz people,Jacque Schrag,https://jacqueschrag.com/,Website
 Data viz people,Enrico Bertini,https://filwd.substack.com/,Blog
+Data viz people,Giuseppe Sollazzo (Puntofisso),https://puntofisso.net/,Blog
 Data viz community,Data Visualization Society,https://www.datavisualizationsociety.org/,Community
 Data viz community,Tableau Community,https://community.tableau.com/s/,Community
 Data viz community,Women in Dataviz,https://womenindataviz.substack.com/about,Community
@@ -70,21 +65,21 @@ Journal,Nightingale (Journal of the Data Visualization Society),https://nighting
 Colour,Viz Palette,https://projects.susielu.com/viz-palette,Website;Colour;Accessibility
 Colour,Coolors,https://coolors.co/generate,Website;Colour
 Colour,ColorBrewer,https://colorbrewer2.org/,Website;Colour
-Colour,Data Viz Contrast Tool,https://datavizcontrast.com/,Website;Colour;Accessibility
+Colour,Data viz contrast tool,https://datavizcontrast.com/,Website;Colour;Accessibility
 Colour,Building color palettes in your data visualization style guides,https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/,Academic paper;Colour
 Colour,Analysing and comparing color palettes with cols4all,https://cols4all.github.io/cols4all-R/articles/01_paper.html,Colour;R;Academic paper
 Colour,How to find and create good color palettes,https://www.datawrapper.de/blog/create-good-color-palettes,Blog post;Colour
-Colour,Python Color Palette Finder,https://python-graph-gallery.com/color-palette-finder/,Website;Colour
-Accessibility,Writing Alt Text for Data Visualization,https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81,Blog post;Accessibility;Alt text
+Colour,Python color palette finder,https://python-graph-gallery.com/color-palette-finder/,Website;Colour
+Accessibility,Writing alt text for data visualization,https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81,Blog post;Accessibility;Alt text
 Accessibility,Why your data viz needs alt text,https://academic.oup.com/jrssig/article/20/1/38/7034177,Academic paper;Accessibility;Alt text
 Accessibility,Making charts accessible,https://analysisfunction.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/#section-4,Website;Style guide
-Accessibility,Dataviz Accessibility Resources,https://github.com/dataviza11y/resources,Website;Accessibility;Resources
+Accessibility,Dataviz accessibility resources,https://github.com/dataviza11y/resources,Website;Accessibility;Resources
 Visual perception,"Preference for and understanding of graphs presenting health risk information. The role of age, health literacy, numeracy and graph literacy",https://www.sciencedirect.com/science/article/pii/S0738399120303499?via%3Dihub,Academic paper
-Visual perception,Judgment Error in Pie Chart Variations,https://diglib.eg.org/server/api/core/bitstreams/b0fc6407-96c8-4127-b1cb-6ca990b2ddb0/content,Academic paper
+Visual perception,Judgment error in pie chart variations,https://diglib.eg.org/server/api/core/bitstreams/b0fc6407-96c8-4127-b1cb-6ca990b2ddb0/content,Academic paper
 Visual perception,What Makes a Visualization Memorable?,https://ieeexplore.ieee.org/abstract/document/6634103,Academic paper
 Visual perception,"Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods",http://euclid.psych.yorku.ca/www/psy6135/papers/ClevelandMcGill1984.pdf,Academic paper
 Visual perception,Automating the design of graphical presentations of relational information,https://doi.org/10.1145/22949.22950,Academic paper
-Visual perception,Psychology of Data Visualization,https://friendly.github.io/6135/,Website;Teaching
+Visual perception,Psychology of data visualization,https://friendly.github.io/6135/,Website;Teaching
 Programming,Svelte + D3 Training (Matthias Stahl),https://www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8,D3;Svelte;Video;Programming
 Programming,Using D3 with Svelte,https://datavisualizationwithsvelte.com/,D3;Svelte;Website;Programming
 Programming,A ggplot2 Grammar Guide,https://evamaerey.github.io/ggplot2_grammar_guide/about,R;Website;Programming
@@ -116,7 +111,7 @@ Viz software,Highcharts,https://www.highcharts.com/,Highcharts;JavaScript;Progra
 Viz software,Inkscape,https://inkscape.org/,Low code
 Viz software,Figma,https://www.figma.com/,Low code
 Inspiration,Information is Beautiful,https://informationisbeautiful.net/,Website;Blog
-Inspiration,Datawrapper Dispatch,https://www.datawrapper.de/blog/category/data-vis-dispatch,Website;Blog
+Inspiration,Datawrapper Blog,https://www.datawrapper.de/blog/,Website;Blog
 Inspiration,The Crunch Newsletter,https://www.theguardian.com/news/series/the-crunch-data-newsletter-email,Website;Blog
 Inspiration,Wonderful Wednesdays,https://www.psiweb.org/sigs-special-interest-groups/visualisation/welcome-to-wonderful-wednesdays,Website;Blog
 Inspiration,Data is Beautiful,https://www.reddit.com/r/dataisbeautiful/,Website
@@ -129,5 +124,11 @@ Inspiration,30 Day Chart Challenge Bluesky,https://bsky.app/profile/30daychartch
 Inspiration,Massachusetts (Massive) Visualization Dataset,http://massvis.mit.edu/,Website;Data
 Inspiration,Help Me Viz,https://helpmeviz.com/,Website
 Inspiration,Recreations of W.E.B Dubois's Data Portraits,https://github.com/ajstarks/dubois-data-portraits/,Website
+Inspiration,Storytelling with Data,https://www.storytellingwithdata.com/,Website
+Inspiration,The Plot,https://www.theplot.media/,Newsletter
+Inspiration,"Graph | Plot | Chart | Data Story",https://gpcds.com/,Website
+Inspiration,Visual Capitalist,https://www.visualcapitalist.com/,Website
+Inspiration,The Pudding,https://pudding.cool/,Website
+Inspiration,Our World in Data,https://ourworldindata.org/,Website
 Inspiration,New York Times (What's Going On in This Graph?),https://www.nytimes.com/column/whats-going-on-in-this-graph,Website
 Inspiration,Beautiful Public Data,https://www.beautifulpublicdata.com/,Website

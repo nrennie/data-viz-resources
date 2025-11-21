@@ -46,7 +46,7 @@ resources <- readr::read_csv("resources.csv") |>
   ) |>
   dplyr::select(-LinkText) |>
   dplyr::mutate(
-    Tags = stringr::str_replace_all(Tags, ";", ", ")
+    Notes = stringr::str_replace_all(Notes, ";", ", ")
   ) |>
   dplyr::mutate(
     Category = factor(Category),
@@ -58,9 +58,9 @@ resources <- readr::read_csv("resources.csv") |>
 #| message: false
 library(htmltools)
 filter_fct <- function(values, name) {
-  tags$select(
-    tags$option(value = "", "All"),
-    purrr::map(unique(values), tags$option),
+  Notes$select(
+    Notes$option(value = "", "All"),
+    purrr::map(unique(values), Notes$option),
     onchange = glue::glue(
       "Reactable.setFilter(
         'resources-tbl',
@@ -86,7 +86,7 @@ resources |>
       Link = reactable::colDef(
         html = TRUE
       ),
-      Tags = reactable::colDef(
+      Notes = reactable::colDef(
         maxWidth = 180
       )
     ),

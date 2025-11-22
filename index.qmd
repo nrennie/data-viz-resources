@@ -58,9 +58,9 @@ resources <- readr::read_csv("resources.csv") |>
 #| message: false
 library(htmltools)
 filter_fct <- function(values, name) {
-  Notes$select(
-    Notes$option(value = "", "All"),
-    purrr::map(unique(values), Notes$option),
+  tags$select(
+    tags$option(value = "", "All"),
+    purrr::map(unique(values), tags$option),
     onchange = glue::glue(
       "Reactable.setFilter(
         'resources-tbl',

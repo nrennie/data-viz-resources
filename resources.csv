@@ -39,7 +39,7 @@ Data viz people,Albert Rapp,https://albert-rapp.de/blog#category=Visualization,R
 Data viz people,Michael Friendly,https://www.datavis.ca/,
 Data viz people,Alli Torban,https://www.allitorban.com/,
 Data viz people,Amy Cesal,https://www.amycesal.com/,
-Data vis people,Ihar Yanouski,https://yanouski.com/,
+Data viz people,Ihar Yanouski,https://yanouski.com/,
 Data viz people,Moritz Stefaner (Truth and Beauty),https://truth-and-beauty.net/,
 Data viz people,Yan Holtz,https://www.yan-holtz.com/,
 Data viz people,Shirley Wu,https://sxywu.github.io/,
@@ -67,18 +67,18 @@ Data viz community,Data Visualization Society,https://www.datavisualizationsocie
 Data viz community,Tableau Community,https://community.tableau.com/s/,
 Data viz community,Women in Dataviz,https://womenindataviz.substack.com/about,
 Data viz community,PSI Visualisation Special Interest Group,https://www.psiweb.org/sigs-special-interest-groups/visualisation,
-Conference,EuroVis,https://eurovis.org.uk/,Conference
-Conference,IEEE VIS,https://ieeevis.org/,Conference
-Conference,Dataviz Conferences in 2025,https://medium.com/@yvette110/data-visualization-events-in-2025-a-must-attend-guide-by-datavizlineup-08081964d81c,Conference;Resources
+Conference,EuroVis,https://eurovis.org.uk/,
+Conference,IEEE VIS,https://ieeevis.org/,
+Conference,Dataviz Conferences in 2025,https://medium.com/@yvette110/data-visualization-events-in-2025-a-must-attend-guide-by-datavizlineup-08081964d81c,
 Newsletter,Quantum of Sollazzo,https://quantumofsollazzo.com/,
 Newsletter,The Crunch Newsletter,https://www.theguardian.com/news/series/the-crunch-data-newsletter-email,
 Newsletter,Datawrapper Newsletter,https://www.datawrapper.de/blog/newsletter,
 Newsletter,The Visualising Data Newsletter,https://visualisingdata.com/newsletter/,
-Journal,Information Visualization,https://us.sagepub.com/en-us/nam/journal/information-visualization,Academic journal
-Journal,Nightingale (Journal of the Data Visualization Society),https://nightingaledvs.com/,Academic journal
+Journal,Information Visualization,https://us.sagepub.com/en-us/nam/journal/information-visualization,
+Journal,Nightingale (Journal of the Data Visualization Society),https://nightingaledvs.com/,
 Colour,Viz Palette,https://projects.susielu.com/viz-palette,
-Colour,Coolors,https://coolors.co/generate,;
-Colour,ColorBrewer,https://colorbrewer2.org/,;
+Colour,Coolors,https://coolors.co/generate,
+Colour,ColorBrewer,https://colorbrewer2.org/,
 Colour,Data viz contrast tool,https://datavizcontrast.com/,
 Colour,Building color palettes in your data visualization style guides,https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/,Academic paper
 Colour,Analysing and comparing color palettes with cols4all,https://cols4all.github.io/cols4all-R/articles/01_paper.html,R
@@ -93,7 +93,7 @@ Visual perception,Judgment error in pie chart variations,https://diglib.eg.org/s
 Visual perception,What Makes a Visualization Memorable?,https://ieeexplore.ieee.org/abstract/document/6634103,Academic paper
 Visual perception,"Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods",http://euclid.psych.yorku.ca/www/psy6135/papers/ClevelandMcGill1984.pdf,Academic paper
 Visual perception,Automating the design of graphical presentations of relational information,https://doi.org/10.1145/22949.22950,Academic paper
-Visual perception,Psychology of data visualization,https://friendly.github.io/6135/,;Teaching
+Visual perception,Psychology of data visualization,https://friendly.github.io/6135/,Teaching materials
 Programming,Svelte + D3 Training (Matthias Stahl),https://www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8,D3;Svelte
 Programming,Using D3 with Svelte,https://datavisualizationwithsvelte.com/,D3;Svelte
 Programming,A ggplot2 Grammar Guide,https://evamaerey.github.io/ggplot2_grammar_guide/about,R
@@ -111,13 +111,13 @@ Programming,Getting (more out of) Graphics,https://bookdown.org/aatcosada/GmooG-
 Programming,A layered grammar of graphics,http://dx.doi.org/10.1198/jcgs.2009.07098,R;Academic paper
 Programming,R Graph Gallery,https://r-graph-gallery.com/,R
 Programming,Python Graph Gallery,https://python-graph-gallery.com/,Python
-Programming,ggdist: Visualizations of Distributions and Uncertainty in the Grammar of Graphics,https://doi.org/10.1109/TVCG.2023.3327195,Programming;R;Academic paper
+Programming,ggdist: Visualizations of Distributions and Uncertainty in the Grammar of Graphics,https://doi.org/10.1109/TVCG.2023.3327195,R;Academic paper
 Viz software,Datawrapper,https://www.datawrapper.de/,Low code
 Viz software,Flourish,https://flourish.studio/,Low code
 Viz software,SveltePlot,https://svelteplot.dev/,Svelte;JavaScript
 Viz software,Observable,https://observablehq.com/,JavaScript
 Viz software,Tableau,https://www.tableau.com/,Low code
-Viz software,D3,https://d3js.org/,D3;JavaScript
+Viz software,D3,https://d3js.org/,JavaScript
 Viz software,RAWGraphs,https://www.rawgraphs.io/,Low code
 Viz software,ggplot2,https://ggplot2.tidyverse.org/,R
 Viz software,Plotnine,https://plotnine.org/,Python

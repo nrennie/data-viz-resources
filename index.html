@@ -23,37 +23,264 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="index_files/libs/clipboard/clipboard.min.js"></script>
-<script src="index_files/libs/quarto-html/quarto.js" type="module"></script>
-<script src="index_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="index_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="index_files/libs/quarto-html/popper.min.js"></script>
-<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
-<script src="index_files/libs/quarto-html/anchor.min.js"></script>
-<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
-<link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="index_files/libs/bootstrap/bootstrap-d942e41b94a5dd545835e0be6559567e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="index_files/libs/core-js-2.5.3/shim.min.js"></script>
-<script src="index_files/libs/react-18.2.0/react.min.js"></script>
-<script src="index_files/libs/react-18.2.0/react-dom.min.js"></script>
-<script src="index_files/libs/reactwidget-2.0.0/react-tools.js"></script>
-<link href="index_files/libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
-<script src="index_files/libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<link href="index_files/libs/reactable-0.4.5/reactable.css" rel="stylesheet">
-<script src="index_files/libs/reactable-binding-0.4.5/reactable.js"></script>
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./assets/img/favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-7549af654edfc1fd5ae9b6eb854393b7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-55f7e3138f68ca8ce4182a6b1612efe8.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-7549af654edfc1fd5ae9b6eb854393b7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="site_libs/core-js-2.5.3/shim.min.js"></script>
+<script src="site_libs/react-18.2.0/react.min.js"></script>
+<script src="site_libs/react-18.2.0/react-dom.min.js"></script>
+<script src="site_libs/reactwidget-2.0.0/react-tools.js"></script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/reactable-0.4.5/reactable.css" rel="stylesheet">
+<script src="site_libs/reactable-binding-0.4.5/reactable.js"></script>
 
 
+<meta property="og:title" content="Data Visualisation Resources">
+<meta property="og:description" content="A collection of useful, freely-available data visualisation resources and links, curated by Nicola Rennie.">
+<meta property="og:image" content="https://nrennie.rbind.io/data-viz-resources/assets/img/featured.png">
+<meta property="og:site_name" content="Data Visualisation Resources">
+<meta property="og:image:height" content="936">
+<meta property="og:image:width" content="1800">
+<meta name="twitter:title" content="Data Visualisation Resources">
+<meta name="twitter:description" content="A collection of useful, freely-available data visualisation resources and links, curated by Nicola Rennie.">
+<meta name="twitter:image" content="https://nrennie.rbind.io/data-viz-resources/assets/img/featured.png">
+<meta name="twitter:image-height" content="936">
+<meta name="twitter:image-width" content="1800">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="quarto-light">
+<body class="floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-full">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<!-- sidebar -->
   
-</div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
 <main class="content column-page" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -75,39 +302,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="cell">
-<style type="text/css">
-select {
-  background-color: #fff;
-  border: 1px solid rgba(0,0,0,.1);
-  border-radius: 3px;
-  color: inherit;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: 400;
-  margin: 0;
-  outline-style: solid;
-  outline-width: 0;
-  padding: 5px 7px;
-  width: 100%;
-}
-</style>
-</div>
 <p>This resource list was last updated on Dec 23, 2025. Want to add a resource? File an issue or edit the <code>resources.csv</code> file on <a href="https://github.com/nrennie/data-viz-resources">GitHub</a> and submit a PR.</p>
 <p>Looking for more general data science resources? Take a look at <a href="https://nrennie.rbind.io/data-science-resources/">nrennie.rbind.io/data-science-resources</a>.</p>
 <div class="cell">
 <div class="cell-output-display">
 <div class="reactable html-widget html-fill-item" id="resources-tbl" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="resources-tbl">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Category":["General","General","General","General","General","General","General","General","General","General","General","General","General","General","Accessibility","Accessibility","Accessibility","Accessibility","Colour","Colour","Colour","Colour","Colour","Colour","Colour","Colour","Colour","Colour","Conference","Conference","Conference","Data viz community","Data viz community","Data viz community","Data viz community","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Journal","Journal","Journal","Newsletter","Newsletter","Newsletter","Newsletter","Newsletter","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Resource list","Resource list","Resource list","Resource list","Resource list","Resource list","Resource list","Resource list","Resource list","Style guide","Style guide","Style guide","Style guide","Style guide","Style guide","Style guide","Visual perception","Visual perception","Visual perception","Visual perception","Visual perception","Visual perception","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software"],"Title":["99 data viz rules and why it's OK to break them","A checklist for designing and improving the visualization of scientific data","Data Feminism","Data Viz Project","FT Visual Vocabulary","From Data to Viz","Fundamentals of Data Visualization","Mistakes, we've drawn a few","ONS Digital Blog","Open Visualization Academy","Saloni's guide to data visualization","VisLies","Visualizing uncertainty about the future","VizHub","Dataviz accessibility resources","Making charts accessible","Why your data viz needs alt text","Writing alt text for data visualization","Analysing and comparing color palettes with cols4all","Building color palettes in your data visualization style guides","Color Blender","ColorBrewer","Coolors","Data viz contrast tool","How to find and create good color palettes","Poline","Python color palette finder","Viz Palette","Dataviz Conferences in 2025","EuroVis","IEEE VIS","Data Visualization Society","PSI Visualisation Special Interest Group","Tableau Community","Women in Dataviz","Albert Rapp","Alberto Cairo (The Art of Insight)","Alli Torban","Amy Cesal","Andy Kirk (Visualizing Data)","Cara Thompson","Charlotte Hadley (Graph | Plot | Chart | Data Story)","Dallas Novakowski (Thought-doing)","Enrico Bertini","Federica Fragapane","Giuseppe Sollazzo (Puntofisso)","Gregor Aisch","Helena Jambor","Ihar Yanouski","Ilya Kashnitsky","Jacque Schrag","Jonathan Schwabish (Policy Viz)","Kieran Healy","Koen Van den Eeckhout (Baryon)","Lisa Charlotte Muth","Lisa Hornung (Inside Numbers)","Matthias Stahl","Michael Friendly","Moritz Stefaner (Truth and Beauty)","Nadieh Bremer (Visual Cinnamon)","Nathan Yau (Flowing Data)","Neil Richards (Questions in Dataviz)","Nicola Rennie","RJ Andrews (Info We Trust)","Rita Giordano","Shirley Wu","Tanya Shapiro","Wendy Shijia","Will Chase","Yan Holtz","Zane Wolf","2020 30 Day Map Challenge Gallery","30 Day Chart Challenge Bluesky","Beautiful Public Data","Data is Beautiful","Datawrapper Blog","Engineers of Map Art","Financial Times Visual Journalism","Help Me Viz","Information is Beautiful","Massachusetts (Massive) Visualization Dataset","New York Times (What's Going On in This Graph?)","Our World in Data","PSI Wonderful Wednesdays","Recreations of W.E.B Dubois's Data Portraits","Sports Viz Sunday","Storytelling with Data","Storytelling with Data","The Guardian Visual Journalism","The Plot","The Pudding","TidyTuesday Bluesky Feed","USAFacts","Visual Capitalist","Wonderful Wednesdays","Information Visualization","Nightingale (Journal of the Data Visualization Society)","Visible Language","Datawrapper Newsletter","Quantum of Sollazzo","The Crunch Newsletter","The Pudding Newsletter","The Visualising Data Newsletter","A ggplot2 Grammar Guide","A layered grammar of graphics","D3 in Depth","Data Visualization with Plotnine","Data Visualization: A Practical Introduction","Getting (more out of) Graphics","Python Graph Gallery","R Graph Gallery","R Graphics Cookbook","Svelte + D3 Training (Matthias Stahl)","Telling Stories with Data","The Art of Visualization with ggplot2","Using D3 with Svelte","Visualization for Social Data Science","ggdist: Visualizations of Distributions and Uncertainty in the Grammar of Graphics","ggiraph Book","ggplot2 extended","ggplot2: Elegant Graphics for Data Analysis","Awesome Dataviz","Data Folks: List of information designers","Data visualization podcasts","Henry Lau resources","More than maps external resources","The Pudding (Our Resources)","Visualization design resources","Visualizing Data resources","VizDex","Data visualization style guidelines","Economist style guide","Government Analysis Function","ONS Data Visualisation Manual","Ordnance Survey: More than maps","RSS Best Practices for Data Visualisation","Urban Institute data visualization style guide","Automating the design of graphical presentations of relational information","Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods","Judgment error in pie chart variations","Preference for and understanding of graphs presenting health risk information. The role of age, health literacy, numeracy and graph literacy","Psychology of data visualization","What Makes a Visualization Memorable?","D3","Datawrapper","Figma","Flourish","Highcharts","Inkscape","Observable","Plotnine","RAWGraphs","SveltePlot","Tableau","ggplot2"],"Link":["<a href='https://www.addtwodigital.com/blog' target = '_blank'>www.addtwodigital.com/blog<\/a>","<a href='https://www.nature.com/articles/s41556-025-01684-z' target = '_blank'>www.nature.com/articles/s41556-025-01684-z<\/a>","<a href='https://direct.mit.edu/books/book/4660/Data-Feminism' target = '_blank'>direct.mit.edu/books/book/4660/Data-Feminism<\/a>","<a href='https://datavizproject.com/' target = '_blank'>datavizproject.com<\/a>","<a href='https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary' target = '_blank'>github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary<\/a>","<a href='https://www.data-to-viz.com/' target = '_blank'>www.data-to-viz.com<\/a>","<a href='https://clauswilke.com/dataviz/' target = '_blank'>clauswilke.com/dataviz<\/a>","<a href='https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368' target = '_blank'>medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368<\/a>","<a href='https://digitalblog.ons.gov.uk/category/dataviz/' target = '_blank'>digitalblog.ons.gov.uk/category/dataviz<\/a>","<a href='https://openvisualizationacademy.org/' target = '_blank'>openvisualizationacademy.org<\/a>","<a href='https://www.scientificdiscovery.dev/p/salonis-guide-to-data-visualization' target = '_blank'>www.scientificdiscovery.dev/p/salonis-guide-to-data-visualization<\/a>","<a href='https://www.vislies.org/' target = '_blank'>www.vislies.org<\/a>","<a href='https://www.stat.berkeley.edu/~aldous/157/Papers/spiegelhalter_visualizing.pdf' target = '_blank'>www.stat.berkeley.edu/~aldous/157/Papers/spiegelhalter_visualizing.pdf<\/a>","<a href='https://vizhub.com/' target = '_blank'>vizhub.com<\/a>","<a href='https://github.com/dataviza11y/resources' target = '_blank'>github.com/dataviza11y/resources<\/a>","<a href='https://analysisfunction.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/#section-4' target = '_blank'>analysisfunction.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/#section-4<\/a>","<a href='https://academic.oup.com/jrssig/article/20/1/38/7034177' target = '_blank'>academic.oup.com/jrssig/article/20/1/38/7034177<\/a>","<a href='https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81' target = '_blank'>medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81<\/a>","<a href='https://cols4all.github.io/cols4all-R/articles/01_paper.html' target = '_blank'>cols4all.github.io/cols4all-R/articles/01_paper.html<\/a>","<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/' target = '_blank'>pmc.ncbi.nlm.nih.gov/articles/PMC10797256<\/a>","<a href='https://meyerweb.com/eric/tools/color-blend/' target = '_blank'>meyerweb.com/eric/tools/color-blend<\/a>","<a href='https://colorbrewer2.org/' target = '_blank'>colorbrewer2.org<\/a>","<a href='https://coolors.co/generate' target = '_blank'>coolors.co/generate<\/a>","<a href='https://datavizcontrast.com/' target = '_blank'>datavizcontrast.com<\/a>","<a href='https://www.datawrapper.de/blog/create-good-color-palettes' target = '_blank'>www.datawrapper.de/blog/create-good-color-palettes<\/a>","<a href='https://meodai.github.io/poline/' target = '_blank'>meodai.github.io/poline<\/a>","<a href='https://python-graph-gallery.com/color-palette-finder/' target = '_blank'>python-graph-gallery.com/color-palette-finder<\/a>","<a href='https://projects.susielu.com/viz-palette' target = '_blank'>projects.susielu.com/viz-palette<\/a>","<a href='https://medium.com/@yvette110/data-visualization-events-in-2025-a-must-attend-guide-by-datavizlineup-08081964d81c' target = '_blank'>medium.com/@yvette110/data-visualization-events-in-2025-a-must-attend-guide-by-datavizlineup-08081964d81c<\/a>","<a href='https://eurovis.org.uk/' target = '_blank'>eurovis.org.uk<\/a>","<a href='https://ieeevis.org/' target = '_blank'>ieeevis.org<\/a>","<a href='https://www.datavisualizationsociety.org/' target = '_blank'>www.datavisualizationsociety.org<\/a>","<a href='https://www.psiweb.org/sigs-special-interest-groups/visualisation' target = '_blank'>www.psiweb.org/sigs-special-interest-groups/visualisation<\/a>","<a href='https://community.tableau.com/s/' target = '_blank'>community.tableau.com/s<\/a>","<a href='https://womenindataviz.substack.com/about' target = '_blank'>womenindataviz.substack.com/about<\/a>","<a href='https://albert-rapp.de/blog#category=Visualization' target = '_blank'>albert-rapp.de/blog#category=Visualization<\/a>","<a href='https://theartofinsight.substack.com/' target = '_blank'>theartofinsight.substack.com<\/a>","<a href='https://www.allitorban.com/' target = '_blank'>www.allitorban.com<\/a>","<a href='https://www.amycesal.com/' target = '_blank'>www.amycesal.com<\/a>","<a href='https://visualisingdata.com/' target = '_blank'>visualisingdata.com<\/a>","<a href='https://www.cararthompson.com/posts' target = '_blank'>www.cararthompson.com/posts<\/a>","<a href='https://gpcds.com/' target = '_blank'>gpcds.com<\/a>","<a href='https://dallasnova.rbind.io/post/' target = '_blank'>dallasnova.rbind.io/post<\/a>","<a href='https://filwd.substack.com/' target = '_blank'>filwd.substack.com<\/a>","<a href='https://www.domestika.org/en/federica_fragapane' target = '_blank'>www.domestika.org/en/federica_fragapane<\/a>","<a href='https://puntofisso.net/' target = '_blank'>puntofisso.net<\/a>","<a href='https://driven-by-data.net/' target = '_blank'>driven-by-data.net<\/a>","<a href='https://helenajamborwrites.netlify.app/#category=datavis' target = '_blank'>helenajamborwrites.netlify.app/#category=datavis<\/a>","<a href='https://yanouski.com/' target = '_blank'>yanouski.com<\/a>","<a href='https://ikashnitsky.phd/#category=dataviz' target = '_blank'>ikashnitsky.phd/#category=dataviz<\/a>","<a href='https://jacqueschrag.com/' target = '_blank'>jacqueschrag.com<\/a>","<a href='https://policyviz.com/blog/' target = '_blank'>policyviz.com/blog<\/a>","<a href='https://kieranhealy.org/blog/' target = '_blank'>kieranhealy.org/blog<\/a>","<a href='https://baryon.be/blog/' target = '_blank'>baryon.be/blog<\/a>","<a href='https://lisacharlottemuth.com/' target = '_blank'>lisacharlottemuth.com<\/a>","<a href='https://inside-numbers.com/' target = '_blank'>inside-numbers.com<\/a>","<a href='https://www.higsch.com/' target = '_blank'>www.higsch.com<\/a>","<a href='https://www.datavis.ca/' target = '_blank'>www.datavis.ca<\/a>","<a href='https://truth-and-beauty.net/' target = '_blank'>truth-and-beauty.net<\/a>","<a href='https://www.visualcinnamon.com/about/' target = '_blank'>www.visualcinnamon.com/about<\/a>","<a href='https://flowingdata.com/' target = '_blank'>flowingdata.com<\/a>","<a href='https://questionsindataviz.com/' target = '_blank'>questionsindataviz.com<\/a>","<a href='https://nrennie.rbind.io/' target = '_blank'>nrennie.rbind.io<\/a>","<a href='https://infowetrust.com/about' target = '_blank'>infowetrust.com/about<\/a>","<a href='https://ritagiordano.co.uk/' target = '_blank'>ritagiordano.co.uk<\/a>","<a href='https://sxywu.github.io/' target = '_blank'>sxywu.github.io<\/a>","<a href='https://tanyaviz.com/' target = '_blank'>tanyaviz.com<\/a>","<a href='https://wendyshijia.notion.site/' target = '_blank'>wendyshijia.notion.site<\/a>","<a href='https://www.williamrchase.com/' target = '_blank'>www.williamrchase.com<\/a>","<a href='https://www.yan-holtz.com/' target = '_blank'>www.yan-holtz.com<\/a>","<a href='https://www.zanewolf.com/blog' target = '_blank'>www.zanewolf.com/blog<\/a>","<a href='https://david.frigge.nz/30DayMapChallenge2020/maps.html' target = '_blank'>david.frigge.nz/30DayMapChallenge2020/maps.html<\/a>","<a href='https://bsky.app/profile/30daychartchall.bsky.social' target = '_blank'>bsky.app/profile/30daychartchall.bsky.social<\/a>","<a href='https://www.beautifulpublicdata.com/' target = '_blank'>www.beautifulpublicdata.com<\/a>","<a href='https://www.reddit.com/r/dataisbeautiful/' target = '_blank'>www.reddit.com/r/dataisbeautiful<\/a>","<a href='https://www.datawrapper.de/blog/' target = '_blank'>www.datawrapper.de/blog<\/a>","<a href='https://www.research-collection.ethz.ch/entities/publication/a5baabb8-075e-401c-842a-4d77f3badd42' target = '_blank'>www.research-collection.ethz.ch/entities/publication/a5baabb8-075e-401c-842a-4d77f3badd42<\/a>","<a href='https://www.ft.com/visual-and-data-journalism' target = '_blank'>www.ft.com/visual-and-data-journalism<\/a>","<a href='https://helpmeviz.com/' target = '_blank'>helpmeviz.com<\/a>","<a href='https://informationisbeautiful.net/' target = '_blank'>informationisbeautiful.net<\/a>","<a href='http://massvis.mit.edu/' target = '_blank'>http://massvis.mit.edu<\/a>","<a href='https://www.nytimes.com/column/whats-going-on-in-this-graph' target = '_blank'>www.nytimes.com/column/whats-going-on-in-this-graph<\/a>","<a href='https://ourworldindata.org/' target = '_blank'>ourworldindata.org<\/a>","<a href='https://vis-sig.github.io/blog/' target = '_blank'>vis-sig.github.io/blog<\/a>","<a href='https://github.com/ajstarks/dubois-data-portraits/' target = '_blank'>github.com/ajstarks/dubois-data-portraits<\/a>","<a href='https://www.sportsvizsunday.com/' target = '_blank'>www.sportsvizsunday.com<\/a>","<a href='https://community.storytellingwithdata.com/challenges' target = '_blank'>community.storytellingwithdata.com/challenges<\/a>","<a href='https://www.storytellingwithdata.com/' target = '_blank'>www.storytellingwithdata.com<\/a>","<a href='https://www.theguardian.com/interactive' target = '_blank'>www.theguardian.com/interactive<\/a>","<a href='https://www.theplot.media/' target = '_blank'>www.theplot.media<\/a>","<a href='https://pudding.cool/' target = '_blank'>pudding.cool<\/a>","<a href='https://bsky.app/profile/nrennie.bsky.social/feed/aaam7sw6umjoq' target = '_blank'>bsky.app/profile/nrennie.bsky.social/feed/aaam7sw6umjoq<\/a>","<a href='https://usafacts.org/visualizations/' target = '_blank'>usafacts.org/visualizations<\/a>","<a href='https://www.visualcapitalist.com/' target = '_blank'>www.visualcapitalist.com<\/a>","<a href='https://www.psiweb.org/sigs-special-interest-groups/visualisation/welcome-to-wonderful-wednesdays' target = '_blank'>www.psiweb.org/sigs-special-interest-groups/visualisation/welcome-to-wonderful-wednesdays<\/a>","<a href='https://us.sagepub.com/en-us/nam/journal/information-visualization' target = '_blank'>us.sagepub.com/en-us/nam/journal/information-visualization<\/a>","<a href='https://nightingaledvs.com/' target = '_blank'>nightingaledvs.com<\/a>","<a href='https://journals.uc.edu/index.php/vl/issue/archive' target = '_blank'>journals.uc.edu/index.php/vl/issue/archive<\/a>","<a href='https://www.datawrapper.de/blog/newsletter' target = '_blank'>www.datawrapper.de/blog/newsletter<\/a>","<a href='https://quantumofsollazzo.com/' target = '_blank'>quantumofsollazzo.com<\/a>","<a href='https://www.theguardian.com/news/series/the-crunch-data-newsletter-email' target = '_blank'>www.theguardian.com/news/series/the-crunch-data-newsletter-email<\/a>","<a href='https://pudding.cool/subscribe' target = '_blank'>pudding.cool/subscribe<\/a>","<a href='https://visualisingdata.com/newsletter/' target = '_blank'>visualisingdata.com/newsletter<\/a>","<a href='https://evamaerey.github.io/ggplot2_grammar_guide/about' target = '_blank'>evamaerey.github.io/ggplot2_grammar_guide/about<\/a>","<a href='http://dx.doi.org/10.1198/jcgs.2009.07098' target = '_blank'>http://dx.doi.org/10.1198/jcgs.2009.07098<\/a>","<a href='https://www.d3indepth.com/' target = '_blank'>www.d3indepth.com<\/a>","<a href='https://f0nzie.github.io/rmarkdown-python-plotnine/' target = '_blank'>f0nzie.github.io/rmarkdown-python-plotnine<\/a>","<a href='https://socviz.co/' target = '_blank'>socviz.co<\/a>","<a href='https://bookdown.org/aatcosada/GmooG-book2' target = '_blank'>bookdown.org/aatcosada/GmooG-book2<\/a>","<a href='https://python-graph-gallery.com/' target = '_blank'>python-graph-gallery.com<\/a>","<a href='https://r-graph-gallery.com/' target = '_blank'>r-graph-gallery.com<\/a>","<a href='https://r-graphics.org/' target = '_blank'>r-graphics.org<\/a>","<a href='https://www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8' target = '_blank'>www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8<\/a>","<a href='https://tellingstorieswithdata.com/' target = '_blank'>tellingstorieswithdata.com<\/a>","<a href='https://nrennie.rbind.io/art-of-viz' target = '_blank'>nrennie.rbind.io/art-of-viz<\/a>","<a href='https://datavisualizationwithsvelte.com/' target = '_blank'>datavisualizationwithsvelte.com<\/a>","<a href='https://vis4sds.github.io/vis4sds/' target = '_blank'>vis4sds.github.io/vis4sds<\/a>","<a href='https://doi.org/10.1109/TVCG.2023.3327195' target = '_blank'>doi.org/10.1109/TVCG.2023.3327195<\/a>","<a href='https://www.ardata.fr/ggiraph-book/' target = '_blank'>www.ardata.fr/ggiraph-book<\/a>","<a href='https://ggplot2-extended-book.com/' target = '_blank'>ggplot2-extended-book.com<\/a>","<a href='https://ggplot2-book.org/' target = '_blank'>ggplot2-book.org<\/a>","<a href='https://github.com/hal9ai/awesome-dataviz' target = '_blank'>github.com/hal9ai/awesome-dataviz<\/a>","<a href='https://juanchiparra.github.io/data-folks/' target = '_blank'>juanchiparra.github.io/data-folks<\/a>","<a href='https://baryon.notion.site/b7307b3af0dd45e1a891feb54d996866?v=f72fa21424a74e55ad058cf4e50ba9da' target = '_blank'>baryon.notion.site/b7307b3af0dd45e1a891feb54d996866?v=f72fa21424a74e55ad058cf4e50ba9da<\/a>","<a href='https://www.henrylau.co.uk/resources/' target = '_blank'>www.henrylau.co.uk/resources<\/a>","<a href='https://docs.os.uk/more-than-maps/resources/data-visualisation-external-resources' target = '_blank'>docs.os.uk/more-than-maps/resources/data-visualisation-external-resources<\/a>","<a href='https://pudding.cool/resources/' target = '_blank'>pudding.cool/resources<\/a>","<a href='https://www.cs.ubc.ca/group/infovis/resources.shtml' target = '_blank'>www.cs.ubc.ca/group/infovis/resources.shtml<\/a>","<a href='https://visualisingdata.com/resources/' target = '_blank'>visualisingdata.com/resources<\/a>","<a href='https://vizdexproject.com/' target = '_blank'>vizdexproject.com<\/a>","<a href='https://www.datavizstyleguide.com/' target = '_blank'>www.datavizstyleguide.com<\/a>","<a href='https://design-system.economist.com/documents/CHARTstyleguide_20170505.pdf' target = '_blank'>design-system.economist.com/documents/CHARTstyleguide_20170505.pdf<\/a>","<a href='https://analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation/' target = '_blank'>analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation<\/a>","<a href='https://service-manual.ons.gov.uk/data-visualisation' target = '_blank'>service-manual.ons.gov.uk/data-visualisation<\/a>","<a href='https://docs.os.uk/more-than-maps' target = '_blank'>docs.os.uk/more-than-maps<\/a>","<a href='https://rss.org.uk/datavisguide/' target = '_blank'>rss.org.uk/datavisguide<\/a>","<a href='https://urbaninstitute.github.io/graphics-styleguide/' target = '_blank'>urbaninstitute.github.io/graphics-styleguide<\/a>","<a href='https://doi.org/10.1145/22949.22950' target = '_blank'>doi.org/10.1145/22949.22950<\/a>","<a href='http://euclid.psych.yorku.ca/www/psy6135/papers/ClevelandMcGill1984.pdf' target = '_blank'>http://euclid.psych.yorku.ca/www/psy6135/papers/ClevelandMcGill1984.pdf<\/a>","<a href='https://diglib.eg.org/server/api/core/bitstreams/b0fc6407-96c8-4127-b1cb-6ca990b2ddb0/content' target = '_blank'>diglib.eg.org/server/api/core/bitstreams/b0fc6407-96c8-4127-b1cb-6ca990b2ddb0/content<\/a>","<a href='https://www.sciencedirect.com/science/article/pii/S0738399120303499?via%3Dihub' target = '_blank'>www.sciencedirect.com/science/article/pii/S0738399120303499?via%3Dihub<\/a>","<a href='https://friendly.github.io/6135/' target = '_blank'>friendly.github.io/6135<\/a>","<a href='https://ieeexplore.ieee.org/abstract/document/6634103' target = '_blank'>ieeexplore.ieee.org/abstract/document/6634103<\/a>","<a href='https://d3js.org/' target = '_blank'>d3js.org<\/a>","<a href='https://www.datawrapper.de/' target = '_blank'>www.datawrapper.de<\/a>","<a href='https://www.figma.com/' target = '_blank'>www.figma.com<\/a>","<a href='https://flourish.studio/' target = '_blank'>flourish.studio<\/a>","<a href='https://www.highcharts.com/' target = '_blank'>www.highcharts.com<\/a>","<a href='https://inkscape.org/' target = '_blank'>inkscape.org<\/a>","<a href='https://observablehq.com/' target = '_blank'>observablehq.com<\/a>","<a href='https://plotnine.org/' target = '_blank'>plotnine.org<\/a>","<a href='https://www.rawgraphs.io/' target = '_blank'>www.rawgraphs.io<\/a>","<a href='https://svelteplot.dev/' target = '_blank'>svelteplot.dev<\/a>","<a href='https://www.tableau.com/' target = '_blank'>www.tableau.com<\/a>","<a href='https://ggplot2.tidyverse.org/' target = '_blank'>ggplot2.tidyverse.org<\/a>"],"Notes":[null,"Academic paper","Book",null,null,null,"Book",null,null,null,null,null,"Academic paper",null,null,null,"Academic paper, Alt text","Alt text","R","Academic paper",null,null,null,null,null,null,"Python",null,null,null,null,null,null,null,null,"R",null,null,null,null,"R",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"Maps",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"R","R, Academic paper","D3, Book","Python, Book","R, Book","R, Book","Python","R","R, Book","D3, Svelte","R, Python, Book","R, Book","D3, Svelte","R, Book","R, Academic paper","R, Book","R, Book","R, Book",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"Academic paper","Academic paper","Academic paper","Academic paper","Teaching materials","Academic paper","JavaScript","Low code","Low code","Low code","JavaScript","Low code","JavaScript","Python","Low code","Svelte, JavaScript","Low code","R"]},"columns":[{"id":"Category","name":"Category","type":"factor","filterInput":{"name":"select","attribs":{"onChange":"function(_e){(function(event){Reactable.setFilter(\n  'resources-tbl',\n  'Category',\n  event.target.value\n)}).apply(event.target,[_e])}"},"children":[{"name":"option","attribs":{"value":""},"children":["All"]},{"name":"option","attribs":{},"children":["General"]},{"name":"option","attribs":{},"children":["Accessibility"]},{"name":"option","attribs":{},"children":["Colour"]},{"name":"option","attribs":{},"children":["Conference"]},{"name":"option","attribs":{},"children":["Data viz community"]},{"name":"option","attribs":{},"children":["Data viz people"]},{"name":"option","attribs":{},"children":["Inspiration"]},{"name":"option","attribs":{},"children":["Journal"]},{"name":"option","attribs":{},"children":["Newsletter"]},{"name":"option","attribs":{},"children":["Programming"]},{"name":"option","attribs":{},"children":["Resource list"]},{"name":"option","attribs":{},"children":["Style guide"]},{"name":"option","attribs":{},"children":["Visual perception"]},{"name":"option","attribs":{},"children":["Viz software"]}]},"maxWidth":180},{"id":"Title","name":"Title","type":"character"},{"id":"Link","name":"Link","type":["glue","character"],"html":true},{"id":"Notes","name":"Notes","type":"character","maxWidth":180}],"filterable":true,"searchable":true,"pagination":false,"striped":true,"showSortable":true,"theme":{"backgroundColor":"#F0F5F5","rowStyle":{"backgroundColor":"#F0F5F5","color":"black"},"rowStripedStyle":{"backgroundColor":"#FFFFFF"}},"elementId":"resources-tbl","dataKey":"1d543f21a1169069c984653006b62398"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.filterInput.attribs.onChange"],"jsHooks":[]}</script>
+<script type="application/json" data-for="resources-tbl">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Category":["General","General","General","General","General","General","General","General","General","General","General","General","General","General","Accessibility","Accessibility","Accessibility","Accessibility","Colour","Colour","Colour","Colour","Colour","Colour","Colour","Colour","Colour","Colour","Conference","Conference","Conference","Data viz community","Data viz community","Data viz community","Data viz community","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Data viz people","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Inspiration","Journal","Journal","Journal","Newsletter","Newsletter","Newsletter","Newsletter","Newsletter","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Programming","Resource list","Resource list","Resource list","Resource list","Resource list","Resource list","Resource list","Resource list","Resource list","Style guide","Style guide","Style guide","Style guide","Style guide","Style guide","Style guide","Visual perception","Visual perception","Visual perception","Visual perception","Visual perception","Visual perception","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software","Viz software"],"Title":["99 data viz rules and why it's OK to break them","A checklist for designing and improving the visualization of scientific data","Data Feminism","Data Viz Project","FT Visual Vocabulary","From Data to Viz","Fundamentals of Data Visualization","Mistakes, we've drawn a few","ONS Digital Blog","Open Visualization Academy","Saloni's guide to data visualization","VisLies","Visualizing uncertainty about the future","VizHub","Dataviz accessibility resources","Making charts accessible","Why your data viz needs alt text","Writing alt text for data visualization","Analysing and comparing color palettes with cols4all","Building color palettes in your data visualization style guides","Color Blender","ColorBrewer","Coolors","Data viz contrast tool","How to find and create good color palettes","Poline","Python color palette finder","Viz Palette","Dataviz Conferences in 2025","EuroVis","IEEE VIS","Data Visualization Society","PSI Visualisation Special Interest Group","Tableau Community","Women in Dataviz","Albert Rapp","Alberto Cairo (The Art of Insight)","Alli Torban","Amy Cesal","Andy Kirk (Visualizing Data)","Cara Thompson","Charlotte Hadley (Graph | Plot | Chart | Data Story)","Dallas Novakowski (Thought-doing)","Enrico Bertini","Federica Fragapane","Giuseppe Sollazzo (Puntofisso)","Gregor Aisch","Helena Jambor","Ihar Yanouski","Ilya Kashnitsky","Jacque Schrag","Jonathan Schwabish (Policy Viz)","Kieran Healy","Koen Van den Eeckhout (Baryon)","Lisa Charlotte Muth","Lisa Hornung (Inside Numbers)","Matthias Stahl","Michael Friendly","Moritz Stefaner (Truth and Beauty)","Nadieh Bremer (Visual Cinnamon)","Nathan Yau (Flowing Data)","Neil Richards (Questions in Dataviz)","Nicola Rennie","RJ Andrews (Info We Trust)","Rita Giordano","Shirley Wu","Tanya Shapiro","Wendy Shijia","Will Chase","Yan Holtz","Zane Wolf","2020 30 Day Map Challenge Gallery","30 Day Chart Challenge Bluesky","Beautiful Public Data","Data is Beautiful","Datawrapper Blog","Engineers of Map Art","Financial Times Visual Journalism","Help Me Viz","Information is Beautiful","Massachusetts (Massive) Visualization Dataset","New York Times (What's Going On in This Graph?)","Our World in Data","PSI Wonderful Wednesdays","Recreations of W.E.B Dubois's Data Portraits","Sports Viz Sunday","Storytelling with Data","Storytelling with Data","The Guardian Visual Journalism","The Plot","The Pudding","TidyTuesday Bluesky Feed","USAFacts","Visual Capitalist","Wonderful Wednesdays","Information Visualization","Nightingale (Journal of the Data Visualization Society)","Visible Language","Datawrapper Newsletter","Quantum of Sollazzo","The Crunch Newsletter","The Pudding Newsletter","The Visualising Data Newsletter","A ggplot2 Grammar Guide","A layered grammar of graphics","D3 in Depth","Data Visualization with Plotnine","Data Visualization: A Practical Introduction","Getting (more out of) Graphics","Python Graph Gallery","R Graph Gallery","R Graphics Cookbook","Svelte + D3 Training (Matthias Stahl)","Telling Stories with Data","The Art of Visualization with ggplot2","Using D3 with Svelte","Visualization for Social Data Science","ggdist: Visualizations of Distributions and Uncertainty in the Grammar of Graphics","ggiraph Book","ggplot2 extended","ggplot2: Elegant Graphics for Data Analysis","Awesome Dataviz","Data Folks: List of information designers","Data visualization podcasts","Henry Lau resources","More than maps external resources","The Pudding (Our Resources)","Visualization design resources","Visualizing Data resources","VizDex","Data visualization style guidelines","Economist style guide","Government Analysis Function","ONS Data Visualisation Manual","Ordnance Survey: More than maps","RSS Best Practices for Data Visualisation","Urban Institute data visualization style guide","Automating the design of graphical presentations of relational information","Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods","Judgment error in pie chart variations","Preference for and understanding of graphs presenting health risk information. The role of age, health literacy, numeracy and graph literacy","Psychology of data visualization","What Makes a Visualization Memorable?","D3","Datawrapper","Figma","Flourish","Highcharts","Inkscape","Observable","Plotnine","RAWGraphs","SveltePlot","Tableau","ggplot2"],"Link":["<a href='https://www.addtwodigital.com/blog' target = '_blank'>www.addtwodigital.com/blog<\/a>","<a href='https://www.nature.com/articles/s41556-025-01684-z' target = '_blank'>www.nature.com/articles/s41556-025-01684-z<\/a>","<a href='https://direct.mit.edu/books/book/4660/Data-Feminism' target = '_blank'>direct.mit.edu/books/book/4660/Data-Feminism<\/a>","<a href='https://datavizproject.com/' target = '_blank'>datavizproject.com<\/a>","<a href='https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary' target = '_blank'>github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary<\/a>","<a href='https://www.data-to-viz.com/' target = '_blank'>www.data-to-viz.com<\/a>","<a href='https://clauswilke.com/dataviz/' target = '_blank'>clauswilke.com/dataviz<\/a>","<a href='https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368' target = '_blank'>medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368<\/a>","<a href='https://digitalblog.ons.gov.uk/category/dataviz/' target = '_blank'>digitalblog.ons.gov.uk/category/dataviz<\/a>","<a href='https://openvisualizationacademy.org/' target = '_blank'>openvisualizationacademy.org<\/a>","<a href='https://www.scientificdiscovery.dev/p/salonis-guide-to-data-visualization' target = '_blank'>www.scientificdiscovery.dev/p/salonis-guide-to-data-visualization<\/a>","<a href='https://www.vislies.org/' target = '_blank'>www.vislies.org<\/a>","<a href='https://www.stat.berkeley.edu/~aldous/157/Papers/spiegelhalter_visualizing.pdf' target = '_blank'>www.stat.berkeley.edu/~aldous/157/Papers/spiegelhalter_visualizing.pdf<\/a>","<a href='https://vizhub.com/' target = '_blank'>vizhub.com<\/a>","<a href='https://github.com/dataviza11y/resources' target = '_blank'>github.com/dataviza11y/resources<\/a>","<a href='https://analysisfunction.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/#section-4' target = '_blank'>analysisfunction.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/#section-4<\/a>","<a href='https://academic.oup.com/jrssig/article/20/1/38/7034177' target = '_blank'>academic.oup.com/jrssig/article/20/1/38/7034177<\/a>","<a href='https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81' target = '_blank'>medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81<\/a>","<a href='https://cols4all.github.io/cols4all-R/articles/01_paper.html' target = '_blank'>cols4all.github.io/cols4all-R/articles/01_paper.html<\/a>","<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC10797256/' target = '_blank'>pmc.ncbi.nlm.nih.gov/articles/PMC10797256<\/a>","<a href='https://meyerweb.com/eric/tools/color-blend/' target = '_blank'>meyerweb.com/eric/tools/color-blend<\/a>","<a href='https://colorbrewer2.org/' target = '_blank'>colorbrewer2.org<\/a>","<a href='https://coolors.co/generate' target = '_blank'>coolors.co/generate<\/a>","<a href='https://datavizcontrast.com/' target = '_blank'>datavizcontrast.com<\/a>","<a href='https://www.datawrapper.de/blog/create-good-color-palettes' target = '_blank'>www.datawrapper.de/blog/create-good-color-palettes<\/a>","<a href='https://meodai.github.io/poline/' target = '_blank'>meodai.github.io/poline<\/a>","<a href='https://python-graph-gallery.com/color-palette-finder/' target = '_blank'>python-graph-gallery.com/color-palette-finder<\/a>","<a href='https://projects.susielu.com/viz-palette' target = '_blank'>projects.susielu.com/viz-palette<\/a>","<a href='https://medium.com/@yvette110/data-visualization-events-in-2025-a-must-attend-guide-by-datavizlineup-08081964d81c' target = '_blank'>medium.com/@yvette110/data-visualization-events-in-2025-a-must-attend-guide-by-datavizlineup-08081964d81c<\/a>","<a href='https://eurovis.org.uk/' target = '_blank'>eurovis.org.uk<\/a>","<a href='https://ieeevis.org/' target = '_blank'>ieeevis.org<\/a>","<a href='https://www.datavisualizationsociety.org/' target = '_blank'>www.datavisualizationsociety.org<\/a>","<a href='https://www.psiweb.org/sigs-special-interest-groups/visualisation' target = '_blank'>www.psiweb.org/sigs-special-interest-groups/visualisation<\/a>","<a href='https://community.tableau.com/s/' target = '_blank'>community.tableau.com/s<\/a>","<a href='https://womenindataviz.substack.com/about' target = '_blank'>womenindataviz.substack.com/about<\/a>","<a href='https://albert-rapp.de/blog#category=Visualization' target = '_blank'>albert-rapp.de/blog#category=Visualization<\/a>","<a href='https://theartofinsight.substack.com/' target = '_blank'>theartofinsight.substack.com<\/a>","<a href='https://www.allitorban.com/' target = '_blank'>www.allitorban.com<\/a>","<a href='https://www.amycesal.com/' target = '_blank'>www.amycesal.com<\/a>","<a href='https://visualisingdata.com/' target = '_blank'>visualisingdata.com<\/a>","<a href='https://www.cararthompson.com/posts' target = '_blank'>www.cararthompson.com/posts<\/a>","<a href='https://gpcds.com/' target = '_blank'>gpcds.com<\/a>","<a href='https://dallasnova.rbind.io/post/' target = '_blank'>dallasnova.rbind.io/post<\/a>","<a href='https://filwd.substack.com/' target = '_blank'>filwd.substack.com<\/a>","<a href='https://www.domestika.org/en/federica_fragapane' target = '_blank'>www.domestika.org/en/federica_fragapane<\/a>","<a href='https://puntofisso.net/' target = '_blank'>puntofisso.net<\/a>","<a href='https://driven-by-data.net/' target = '_blank'>driven-by-data.net<\/a>","<a href='https://helenajamborwrites.netlify.app/#category=datavis' target = '_blank'>helenajamborwrites.netlify.app/#category=datavis<\/a>","<a href='https://yanouski.com/' target = '_blank'>yanouski.com<\/a>","<a href='https://ikashnitsky.phd/#category=dataviz' target = '_blank'>ikashnitsky.phd/#category=dataviz<\/a>","<a href='https://jacqueschrag.com/' target = '_blank'>jacqueschrag.com<\/a>","<a href='https://policyviz.com/blog/' target = '_blank'>policyviz.com/blog<\/a>","<a href='https://kieranhealy.org/blog/' target = '_blank'>kieranhealy.org/blog<\/a>","<a href='https://baryon.be/blog/' target = '_blank'>baryon.be/blog<\/a>","<a href='https://lisacharlottemuth.com/' target = '_blank'>lisacharlottemuth.com<\/a>","<a href='https://inside-numbers.com/' target = '_blank'>inside-numbers.com<\/a>","<a href='https://www.higsch.com/' target = '_blank'>www.higsch.com<\/a>","<a href='https://www.datavis.ca/' target = '_blank'>www.datavis.ca<\/a>","<a href='https://truth-and-beauty.net/' target = '_blank'>truth-and-beauty.net<\/a>","<a href='https://www.visualcinnamon.com/about/' target = '_blank'>www.visualcinnamon.com/about<\/a>","<a href='https://flowingdata.com/' target = '_blank'>flowingdata.com<\/a>","<a href='https://questionsindataviz.com/' target = '_blank'>questionsindataviz.com<\/a>","<a href='https://nrennie.rbind.io/' target = '_blank'>nrennie.rbind.io<\/a>","<a href='https://infowetrust.com/about' target = '_blank'>infowetrust.com/about<\/a>","<a href='https://ritagiordano.co.uk/' target = '_blank'>ritagiordano.co.uk<\/a>","<a href='https://sxywu.github.io/' target = '_blank'>sxywu.github.io<\/a>","<a href='https://tanyaviz.com/' target = '_blank'>tanyaviz.com<\/a>","<a href='https://wendyshijia.notion.site/' target = '_blank'>wendyshijia.notion.site<\/a>","<a href='https://www.williamrchase.com/' target = '_blank'>www.williamrchase.com<\/a>","<a href='https://www.yan-holtz.com/' target = '_blank'>www.yan-holtz.com<\/a>","<a href='https://www.zanewolf.com/blog' target = '_blank'>www.zanewolf.com/blog<\/a>","<a href='https://david.frigge.nz/30DayMapChallenge2020/maps.html' target = '_blank'>david.frigge.nz/30DayMapChallenge2020/maps.html<\/a>","<a href='https://bsky.app/profile/30daychartchall.bsky.social' target = '_blank'>bsky.app/profile/30daychartchall.bsky.social<\/a>","<a href='https://www.beautifulpublicdata.com/' target = '_blank'>www.beautifulpublicdata.com<\/a>","<a href='https://www.reddit.com/r/dataisbeautiful/' target = '_blank'>www.reddit.com/r/dataisbeautiful<\/a>","<a href='https://www.datawrapper.de/blog/' target = '_blank'>www.datawrapper.de/blog<\/a>","<a href='https://www.research-collection.ethz.ch/entities/publication/a5baabb8-075e-401c-842a-4d77f3badd42' target = '_blank'>www.research-collection.ethz.ch/entities/publication/a5baabb8-075e-401c-842a-4d77f3badd42<\/a>","<a href='https://www.ft.com/visual-and-data-journalism' target = '_blank'>www.ft.com/visual-and-data-journalism<\/a>","<a href='https://helpmeviz.com/' target = '_blank'>helpmeviz.com<\/a>","<a href='https://informationisbeautiful.net/' target = '_blank'>informationisbeautiful.net<\/a>","<a href='http://massvis.mit.edu/' target = '_blank'>http://massvis.mit.edu<\/a>","<a href='https://www.nytimes.com/column/whats-going-on-in-this-graph' target = '_blank'>www.nytimes.com/column/whats-going-on-in-this-graph<\/a>","<a href='https://ourworldindata.org/' target = '_blank'>ourworldindata.org<\/a>","<a href='https://vis-sig.github.io/blog/' target = '_blank'>vis-sig.github.io/blog<\/a>","<a href='https://github.com/ajstarks/dubois-data-portraits/' target = '_blank'>github.com/ajstarks/dubois-data-portraits<\/a>","<a href='https://www.sportsvizsunday.com/' target = '_blank'>www.sportsvizsunday.com<\/a>","<a href='https://community.storytellingwithdata.com/challenges' target = '_blank'>community.storytellingwithdata.com/challenges<\/a>","<a href='https://www.storytellingwithdata.com/' target = '_blank'>www.storytellingwithdata.com<\/a>","<a href='https://www.theguardian.com/interactive' target = '_blank'>www.theguardian.com/interactive<\/a>","<a href='https://www.theplot.media/' target = '_blank'>www.theplot.media<\/a>","<a href='https://pudding.cool/' target = '_blank'>pudding.cool<\/a>","<a href='https://bsky.app/profile/nrennie.bsky.social/feed/aaam7sw6umjoq' target = '_blank'>bsky.app/profile/nrennie.bsky.social/feed/aaam7sw6umjoq<\/a>","<a href='https://usafacts.org/visualizations/' target = '_blank'>usafacts.org/visualizations<\/a>","<a href='https://www.visualcapitalist.com/' target = '_blank'>www.visualcapitalist.com<\/a>","<a href='https://www.psiweb.org/sigs-special-interest-groups/visualisation/welcome-to-wonderful-wednesdays' target = '_blank'>www.psiweb.org/sigs-special-interest-groups/visualisation/welcome-to-wonderful-wednesdays<\/a>","<a href='https://us.sagepub.com/en-us/nam/journal/information-visualization' target = '_blank'>us.sagepub.com/en-us/nam/journal/information-visualization<\/a>","<a href='https://nightingaledvs.com/' target = '_blank'>nightingaledvs.com<\/a>","<a href='https://journals.uc.edu/index.php/vl/issue/archive' target = '_blank'>journals.uc.edu/index.php/vl/issue/archive<\/a>","<a href='https://www.datawrapper.de/blog/newsletter' target = '_blank'>www.datawrapper.de/blog/newsletter<\/a>","<a href='https://quantumofsollazzo.com/' target = '_blank'>quantumofsollazzo.com<\/a>","<a href='https://www.theguardian.com/news/series/the-crunch-data-newsletter-email' target = '_blank'>www.theguardian.com/news/series/the-crunch-data-newsletter-email<\/a>","<a href='https://pudding.cool/subscribe' target = '_blank'>pudding.cool/subscribe<\/a>","<a href='https://visualisingdata.com/newsletter/' target = '_blank'>visualisingdata.com/newsletter<\/a>","<a href='https://evamaerey.github.io/ggplot2_grammar_guide/about' target = '_blank'>evamaerey.github.io/ggplot2_grammar_guide/about<\/a>","<a href='http://dx.doi.org/10.1198/jcgs.2009.07098' target = '_blank'>http://dx.doi.org/10.1198/jcgs.2009.07098<\/a>","<a href='https://www.d3indepth.com/' target = '_blank'>www.d3indepth.com<\/a>","<a href='https://f0nzie.github.io/rmarkdown-python-plotnine/' target = '_blank'>f0nzie.github.io/rmarkdown-python-plotnine<\/a>","<a href='https://socviz.co/' target = '_blank'>socviz.co<\/a>","<a href='https://bookdown.org/aatcosada/GmooG-book2' target = '_blank'>bookdown.org/aatcosada/GmooG-book2<\/a>","<a href='https://python-graph-gallery.com/' target = '_blank'>python-graph-gallery.com<\/a>","<a href='https://r-graph-gallery.com/' target = '_blank'>r-graph-gallery.com<\/a>","<a href='https://r-graphics.org/' target = '_blank'>r-graphics.org<\/a>","<a href='https://www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8' target = '_blank'>www.youtube.com/playlist?list=PLNvnDrMLMSipfbxSp1Z4v9Ydu2ud5i9V8<\/a>","<a href='https://tellingstorieswithdata.com/' target = '_blank'>tellingstorieswithdata.com<\/a>","<a href='https://nrennie.rbind.io/art-of-viz' target = '_blank'>nrennie.rbind.io/art-of-viz<\/a>","<a href='https://datavisualizationwithsvelte.com/' target = '_blank'>datavisualizationwithsvelte.com<\/a>","<a href='https://vis4sds.github.io/vis4sds/' target = '_blank'>vis4sds.github.io/vis4sds<\/a>","<a href='https://doi.org/10.1109/TVCG.2023.3327195' target = '_blank'>doi.org/10.1109/TVCG.2023.3327195<\/a>","<a href='https://www.ardata.fr/ggiraph-book/' target = '_blank'>www.ardata.fr/ggiraph-book<\/a>","<a href='https://ggplot2-extended-book.com/' target = '_blank'>ggplot2-extended-book.com<\/a>","<a href='https://ggplot2-book.org/' target = '_blank'>ggplot2-book.org<\/a>","<a href='https://github.com/hal9ai/awesome-dataviz' target = '_blank'>github.com/hal9ai/awesome-dataviz<\/a>","<a href='https://juanchiparra.github.io/data-folks/' target = '_blank'>juanchiparra.github.io/data-folks<\/a>","<a href='https://baryon.notion.site/b7307b3af0dd45e1a891feb54d996866?v=f72fa21424a74e55ad058cf4e50ba9da' target = '_blank'>baryon.notion.site/b7307b3af0dd45e1a891feb54d996866?v=f72fa21424a74e55ad058cf4e50ba9da<\/a>","<a href='https://www.henrylau.co.uk/resources/' target = '_blank'>www.henrylau.co.uk/resources<\/a>","<a href='https://docs.os.uk/more-than-maps/resources/data-visualisation-external-resources' target = '_blank'>docs.os.uk/more-than-maps/resources/data-visualisation-external-resources<\/a>","<a href='https://pudding.cool/resources/' target = '_blank'>pudding.cool/resources<\/a>","<a href='https://www.cs.ubc.ca/group/infovis/resources.shtml' target = '_blank'>www.cs.ubc.ca/group/infovis/resources.shtml<\/a>","<a href='https://visualisingdata.com/resources/' target = '_blank'>visualisingdata.com/resources<\/a>","<a href='https://vizdexproject.com/' target = '_blank'>vizdexproject.com<\/a>","<a href='https://www.datavizstyleguide.com/' target = '_blank'>www.datavizstyleguide.com<\/a>","<a href='https://design-system.economist.com/documents/CHARTstyleguide_20170505.pdf' target = '_blank'>design-system.economist.com/documents/CHARTstyleguide_20170505.pdf<\/a>","<a href='https://analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation/' target = '_blank'>analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation<\/a>","<a href='https://service-manual.ons.gov.uk/data-visualisation' target = '_blank'>service-manual.ons.gov.uk/data-visualisation<\/a>","<a href='https://docs.os.uk/more-than-maps' target = '_blank'>docs.os.uk/more-than-maps<\/a>","<a href='https://rss.org.uk/datavisguide/' target = '_blank'>rss.org.uk/datavisguide<\/a>","<a href='https://urbaninstitute.github.io/graphics-styleguide/' target = '_blank'>urbaninstitute.github.io/graphics-styleguide<\/a>","<a href='https://doi.org/10.1145/22949.22950' target = '_blank'>doi.org/10.1145/22949.22950<\/a>","<a href='http://euclid.psych.yorku.ca/www/psy6135/papers/ClevelandMcGill1984.pdf' target = '_blank'>http://euclid.psych.yorku.ca/www/psy6135/papers/ClevelandMcGill1984.pdf<\/a>","<a href='https://diglib.eg.org/server/api/core/bitstreams/b0fc6407-96c8-4127-b1cb-6ca990b2ddb0/content' target = '_blank'>diglib.eg.org/server/api/core/bitstreams/b0fc6407-96c8-4127-b1cb-6ca990b2ddb0/content<\/a>","<a href='https://www.sciencedirect.com/science/article/pii/S0738399120303499?via%3Dihub' target = '_blank'>www.sciencedirect.com/science/article/pii/S0738399120303499?via%3Dihub<\/a>","<a href='https://friendly.github.io/6135/' target = '_blank'>friendly.github.io/6135<\/a>","<a href='https://ieeexplore.ieee.org/abstract/document/6634103' target = '_blank'>ieeexplore.ieee.org/abstract/document/6634103<\/a>","<a href='https://d3js.org/' target = '_blank'>d3js.org<\/a>","<a href='https://www.datawrapper.de/' target = '_blank'>www.datawrapper.de<\/a>","<a href='https://www.figma.com/' target = '_blank'>www.figma.com<\/a>","<a href='https://flourish.studio/' target = '_blank'>flourish.studio<\/a>","<a href='https://www.highcharts.com/' target = '_blank'>www.highcharts.com<\/a>","<a href='https://inkscape.org/' target = '_blank'>inkscape.org<\/a>","<a href='https://observablehq.com/' target = '_blank'>observablehq.com<\/a>","<a href='https://plotnine.org/' target = '_blank'>plotnine.org<\/a>","<a href='https://www.rawgraphs.io/' target = '_blank'>www.rawgraphs.io<\/a>","<a href='https://svelteplot.dev/' target = '_blank'>svelteplot.dev<\/a>","<a href='https://www.tableau.com/' target = '_blank'>www.tableau.com<\/a>","<a href='https://ggplot2.tidyverse.org/' target = '_blank'>ggplot2.tidyverse.org<\/a>"],"Notes":[null,"Academic paper","Book",null,null,null,"Book",null,null,null,null,null,"Academic paper",null,null,null,"Academic paper, Alt text","Alt text","R","Academic paper",null,null,null,null,null,null,"Python",null,null,null,null,null,null,null,null,"R",null,null,null,null,"R",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"Maps",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"R","R, Academic paper","D3, Book","Python, Book","R, Book","R, Book","Python","R","R, Book","D3, Svelte","R, Python, Book","R, Book","D3, Svelte","R, Book","R, Academic paper","R, Book","R, Book","R, Book",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"Academic paper","Academic paper","Academic paper","Academic paper","Teaching materials","Academic paper","JavaScript","Low code","Low code","Low code","JavaScript","Low code","JavaScript","Python","Low code","Svelte, JavaScript","Low code","R"]},"columns":[{"id":"Category","name":"Category","type":"factor","filterInput":{"name":"select","attribs":{"onChange":"function(_e){(function(event){Reactable.setFilter(\n  'resources-tbl',\n  'Category',\n  event.target.value\n)}).apply(event.target,[_e])}"},"children":[{"name":"option","attribs":{"value":""},"children":["All"]},{"name":"option","attribs":{},"children":["General"]},{"name":"option","attribs":{},"children":["Accessibility"]},{"name":"option","attribs":{},"children":["Colour"]},{"name":"option","attribs":{},"children":["Conference"]},{"name":"option","attribs":{},"children":["Data viz community"]},{"name":"option","attribs":{},"children":["Data viz people"]},{"name":"option","attribs":{},"children":["Inspiration"]},{"name":"option","attribs":{},"children":["Journal"]},{"name":"option","attribs":{},"children":["Newsletter"]},{"name":"option","attribs":{},"children":["Programming"]},{"name":"option","attribs":{},"children":["Resource list"]},{"name":"option","attribs":{},"children":["Style guide"]},{"name":"option","attribs":{},"children":["Visual perception"]},{"name":"option","attribs":{},"children":["Viz software"]}]},"maxWidth":180},{"id":"Title","name":"Title","type":"character"},{"id":"Link","name":"Link","type":["glue","character"],"html":true},{"id":"Notes","name":"Notes","type":"character","maxWidth":180}],"filterable":true,"searchable":true,"pagination":false,"striped":true,"showSortable":true,"elementId":"resources-tbl","dataKey":"1d543f21a1169069c984653006b62398"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.filterInput.attribs.onChange"],"jsHooks":[]}</script>
 </div>
 </div>
 <p><br></p>
 <p>Links to external websites are provided for convenience and informational purposes only. We do not endorse, guarantee, or take responsibility for the accuracy, reliability, or content of any linked site.</p>
 
-</main>
-<!-- /main column -->
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -179,7 +402,7 @@ select {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/nrennie\.rbind\.io\/data-viz-resources");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -507,7 +730,23 @@ select {
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">© Nicola Rennie. 2025. All rights reserved.</footer>
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ © Nicola Rennie. 2026.<br>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

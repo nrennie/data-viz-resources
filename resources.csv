@@ -1,6 +1,6 @@
 Category,Title,Link,Notes
 General,Fundamentals of Data Visualization,https://clauswilke.com/dataviz/,Book
-General,FT Visual Vocabulary,https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary,
+General,FT Visual Vocabulary,https://github.com/Financial-Times/chart-doctor/tree/main/visual-vocabulary,Financial Times Visual Vocabulary.
 General,99 data viz rules and why it's OK to break them,https://www.addtwodigital.com/blog,
 General,"Mistakes, we've drawn a few",https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368,
 General,A checklist for designing and improving the visualization of scientific data,https://www.nature.com/articles/s41556-025-01684-z,Academic paper
@@ -22,8 +22,8 @@ Resource list,Henry Lau resources,https://www.henrylau.co.uk/resources/,
 Resource list,VizDex,https://vizdexproject.com/,
 Resource list,The Pudding (Our Resources),https://pudding.cool/resources/,
 Resource list,More than maps external resources,https://docs.os.uk/more-than-maps/resources/data-visualisation-external-resources,
-Style guide,RSS Best Practices for Data Visualisation,https://rss.org.uk/datavisguide/,
-Style guide,ONS Data Visualisation Manual,https://service-manual.ons.gov.uk/data-visualisation,
+Style guide,RSS Best Practices for Data Visualisation,https://rss.org.uk/datavisguide/,Royal Statistical Society data visualisation style guide and best practices. 
+Style guide,ONS Data Visualisation Manual,https://service-manual.ons.gov.uk/data-visualisation,Office for National Statistics data visualisation style guide and best practices. 
 Style guide,Government Analysis Function,https://analysisfunction.civilservice.gov.uk/area_of_work/data-visualisation/,
 Style guide,Economist style guide,https://design-system.economist.com/documents/CHARTstyleguide_20170505.pdf,
 Style guide,Data visualization style guidelines,https://www.datavizstyleguide.com/,
@@ -78,7 +78,7 @@ Newsletter,Datawrapper Newsletter,https://www.datawrapper.de/blog/newsletter,
 Newsletter,The Visualising Data Newsletter,https://visualisingdata.com/newsletter/,
 Newsletter,The Pudding Newsletter,https://pudding.cool/subscribe,
 Journal,Information Visualization,https://us.sagepub.com/en-us/nam/journal/information-visualization,
-Journal,Nightingale (Journal of the Data Visualization Society),https://nightingaledvs.com/,
+Journal,Nightingale,https://nightingaledvs.com/,Journal of the Data Visualization Society.
 Journal,Visible Language,https://journals.uc.edu/index.php/vl/issue/archive,
 Colour,Viz Palette,https://projects.susielu.com/viz-palette,
 Colour,Coolors,https://coolors.co/generate,

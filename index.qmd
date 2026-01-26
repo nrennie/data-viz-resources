@@ -16,7 +16,7 @@ resources <- readr::read_csv("resources.csv") |>
   ) |>
   dplyr::select(-LinkText) |>
   dplyr::mutate(
-    Notes = stringr::str_replace_all(Notes, ";", ", ")
+    Notes = stringr::str_replace_all(Notes, ";", "; ")
   ) |>
   dplyr::mutate(
     Category = factor(Category),

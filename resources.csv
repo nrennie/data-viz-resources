@@ -77,6 +77,7 @@ Newsletter,The Crunch Newsletter,https://www.theguardian.com/news/series/the-cru
 Newsletter,Datawrapper Newsletter,https://www.datawrapper.de/blog/newsletter,
 Newsletter,The Visualising Data Newsletter,https://visualisingdata.com/newsletter/,
 Newsletter,The Pudding Newsletter,https://pudding.cool/subscribe,
+Newsletter,Chartography,https://www.chartography.net/,
 Journal,Information Visualization,https://us.sagepub.com/en-us/nam/journal/information-visualization,
 Journal,Nightingale,https://nightingaledvs.com/,Journal of the Data Visualization Society.
 Journal,Visible Language,https://journals.uc.edu/index.php/vl/issue/archive,
@@ -92,6 +93,7 @@ Colour,How to find and create good color palettes,https://www.datawrapper.de/blo
 Colour,Python color palette finder,https://python-graph-gallery.com/color-palette-finder/,Python
 Colour,Poline,https://meodai.github.io/poline/,
 Accessibility,Writing alt text for data visualization,https://medium.com/nightingale/writing-alt-text-for-data-visualization-2a218ef43f81,Alt text
+Accessibility,How to write text descriptions (alt text) in BBC News articles,https://www.bbc.co.uk/gel/how-to-write-text-descriptions-alt-text,Alt text
 Accessibility,Why your data viz needs alt text,https://academic.oup.com/jrssig/article/20/1/38/7034177,Academic paper;Alt text
 Accessibility,Making charts accessible,https://analysisfunction.civilservice.gov.uk/policy-store/making-analytical-publications-accessible/#section-4,
 Accessibility,Dataviz accessibility resources,https://github.com/dataviza11y/resources,
